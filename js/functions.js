@@ -8,3 +8,13 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
   )
   document.querySelector('head').appendChild(msViewportStyle)
 }
+
+
+$(document).ready(function ()
+{
+    //Off canvas toggle
+    $('[data-toggle=offcanvas]').click(function ()
+    {
+        $('.row-offcanvas').toggleClass('active');
+    });
+});

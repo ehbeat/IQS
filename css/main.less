@@ -43,6 +43,16 @@ Contents
 .clearfix {
     *zoom: 1;
 }
+@media (max-width:768px) {
+    .visible-xs {
+        display: block;
+    }
+}
+@media (max-width:992px) {
+    .visible-xs {
+        display: none;
+    }
+}
 /***********************************************************************************************/
 /*Bootstrap Theme*/
 /***********************************************************************************************/
@@ -65,13 +75,12 @@ Contents
 /***********************************************************************************************/
 /*Global*/
 /***********************************************************************************************/
+html, body {
+    overflow-x: hidden;
+}
 
 body {
     font-size: 16px;
-}
-
-.container-fluid {
-    max-width: 960px;
 }
 
 /***********************************************************************************************/
@@ -106,10 +115,26 @@ h1, h2, h3, h4, h5, h6 {
 /*Navigation*/
 /***********************************************************************************************/
 
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+    z-index: 2;
+    color: #FFF;
+    background-color: #428BCA;
+    border-color: #428BCA;
+}
 
 /***********************************************************************************************/
 /*Product Catalog*/
 /***********************************************************************************************/
+
 .feat-image {
     height: 229px;
     background: grey;
@@ -117,6 +142,44 @@ h1, h2, h3, h4, h5, h6 {
 .feat-prod {
     margin: 0 0 20px 0;
 }
+
+/***********************************************************************************************/
+/*Off canvas*/
+/***********************************************************************************************/
+
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
 /***********************************************************************************************/
 /*IE 10 Fix for mobiles*/
 /***********************************************************************************************/

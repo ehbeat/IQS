@@ -42,26 +42,44 @@
             <header>
                 <div class="header clearfix">
                     <div class="row">
-                        <div class="col-md-2 col-xs-1">
+                        <div id="nav-primary" class="col-md-2 col-xs-2" data-toggle="offcanvas">
                             Nav
                         </div>
                         <div class="col-md-3 col-xs-6 logo">
                             Logo
                         </div>
-                        <div class="col-md-2 col-xs-1 pull-right">
+                        <div class="col-md-2 col-xs-2 pull-right">
                             Nav
                         </div>
-                        <div class="col-md-2 col-xs-1 pull-right">
+                        <div class="col-md-2 col-xs-2 pull-right">
                             Nav
                         </div>
                     </div>
                 </div>
+
             </header>
 
             <section>
                 <div class="clearfix">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="row row-offcanvas row-offcanvas-left">
+                    <nav>
+                        <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item active">Link</a>
+                                <a href="#" class="list-group-item">Link</a>
+                                <a href="#" class="list-group-item">Link</a>
+                                <a href="#" class="list-group-item">Link</a>
+                                <a href="#" class="list-group-item">Link</a>
+                                <a href="#" class="list-group-item">Link</a>
+                                <a href="#" class="list-group-item">Link</a>
+                                <a href="#" class="list-group-item">Link</a>
+                                <a href="#" class="list-group-item">Link</a>
+                                <a href="#" class="list-group-item">Link</a>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <div class="col-md-10 col-sm-10 col-xs-12">
 
                     <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
                         <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
