@@ -4156,6 +4156,41 @@ media_tag_33 {
   background-color: #fff;
   cursor: not-allowed;
 }
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+
+  display: table;
+  /* 2 */
+
+}
+.clearfix:after {
+  clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+  *zoom: 1;
+}
+@media (max-width: 768px) {
+  .visible-xs {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  .visible-xs {
+    display: none;
+  }
+}
 /***********************************************************************************************/
 /*Bootstrap Theme*/
 /***********************************************************************************************/
@@ -4503,4 +4538,131 @@ media_tag_33 {
   border-color: #dcdcdc;
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+/***********************************************************************************************/
+/*LESS Variables*/
+/***********************************************************************************************/
+/***********************************************************************************************/
+/*LESS Mixins*/
+/***********************************************************************************************/
+/***********************************************************************************************/
+/*Global*/
+/***********************************************************************************************/
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  font-size: 16px;
+}
+/***********************************************************************************************/
+/*Typography*/
+/***********************************************************************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+/***********************************************************************************************/
+/*Iconography*/
+/***********************************************************************************************/
+.icon-left {
+  margin-right: 10px;
+}
+.icon-right {
+  margin-left: 10px;
+}
+/***********************************************************************************************/
+/*Header*/
+/***********************************************************************************************/
+.header {
+  height: 100px;
+}
+/***********************************************************************************************/
+/*Navigation*/
+/***********************************************************************************************/
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+}
+a.list-group-item.active,
+a.list-group-item.active:hover,
+a.list-group-item.active:focus {
+  z-index: 2;
+  color: #FFF;
+  background-color: #428BCA;
+  border-color: #428BCA;
+}
+/***********************************************************************************************/
+/*Product Catalog*/
+/***********************************************************************************************/
+.feat-image {
+  height: 229px;
+  background: grey;
+}
+.feat-prod {
+  margin: 0 0 20px 0;
+}
+/***********************************************************************************************/
+/*Off canvas*/
+/***********************************************************************************************/
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-right .sidebar-offcanvas {
+    right: -50%;
+    /* 6 columns */
+  
+  }
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -50%;
+    /* 6 columns */
+  
+  }
+  .row-offcanvas-right.active {
+    right: 50%;
+    /* 6 columns */
+  
+  }
+  .row-offcanvas-left.active {
+    left: 50%;
+    /* 6 columns */
+  
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    /* 6 columns */
+  
+  }
+}
+/***********************************************************************************************/
+/*IE 10 Fix for mobiles*/
+/***********************************************************************************************/
+@-webkit-viewport {
+  width: device-width;
+}
+@-moz-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
 }
