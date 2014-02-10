@@ -78,24 +78,6 @@
 
             <section>
                 <div class="clearfix">
-                <div class="row row-offcanvas row-offcanvas-left">
-                    <nav>
-                        <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
-                            <div class="list-group">
-                                <a href="#" class="list-group-item">Link</a>
-                                <a href="#" class="list-group-item"><span class="icon-left glyphicon glyphicon-user"></span>Contacts</a>
-                                <a href="#" class="list-group-item"><span class="icon-left glyphicon glyphicon-list-alt"></span>Quotes</a>
-                                <a href="#" class="list-group-item"><span class="icon-left glyphicon glyphicon-star"></span>Favourites</a>
-                                <a href="#" class="list-group-item"><span class="icon-left glyphicon glyphicon-comment"></span>Chats</a>
-                                <a href="#" class="list-group-item"><span class="icon-left glyphicon glyphicon-user"></span>Activity</a>
-                                <a href="#" class="list-group-item"><span class="icon-left glyphicon glyphicon-user"></span>MarketApps</a>
-                                <a href="#" class="list-group-item active"><span class="icon-left glyphicon glyphicon-user"></span>Product Market</a>
-                                <a href="#" class="list-group-item"><span class="icon-left glyphicon glyphicon-user"></span>Product Providers</a>
-                                <a href="#" class="list-group-item"><span class="icon-left glyphicon glyphicon-user"></span>News</a>
-                            </div>
-                        </div>
-                    </nav>
-
                     <div class="col-md-10 col-sm-10 col-xs-12">
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
