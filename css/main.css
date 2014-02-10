@@ -4554,6 +4554,7 @@ body {
 }
 body {
   font-size: 16px;
+  background-color: #dee9ef;
 }
 /***********************************************************************************************/
 /*Typography*/
@@ -4580,16 +4581,19 @@ h6 {
 /***********************************************************************************************/
 .header {
   height: 100px;
+  background-color: #eff1f4;
+  margin-bottom: 2%;
 }
 /***********************************************************************************************/
 /*Navigation*/
 /***********************************************************************************************/
 .list-group-item {
   position: relative;
+  font-family: 'Gill Sans MT';
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #FFF;
+  background-color: #23232E;
   border: 1px solid #DDD;
 }
 a.list-group-item.active,
@@ -4608,7 +4612,8 @@ a.list-group-item.active:focus {
   background: grey;
 }
 .feat-prod {
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
+  background-color: #fff;
 }
 /***********************************************************************************************/
 /*Off canvas*/
