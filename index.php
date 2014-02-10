@@ -38,7 +38,24 @@
     </head>
 
     <body>
-        <div class="container-fluid">
+        <div class="container-fluid row-offcanvas row-offcanvas-left">
+                <nav>
+                    <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item active">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                        </div>
+                    </div>
+                </nav>
+            <div class="col-sm-10">
             <header>
                 <div class="header clearfix">
                     <div class="row">
@@ -61,25 +78,8 @@
 
             <section>
                 <div class="clearfix">
-                <div class="row row-offcanvas row-offcanvas-left">
-                    <nav>
-                        <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
-                            <div class="list-group">
-                                <a href="#" class="list-group-item active">Link</a>
-                                <a href="#" class="list-group-item">Link</a>
-                                <a href="#" class="list-group-item">Link</a>
-                                <a href="#" class="list-group-item">Link</a>
-                                <a href="#" class="list-group-item">Link</a>
-                                <a href="#" class="list-group-item">Link</a>
-                                <a href="#" class="list-group-item">Link</a>
-                                <a href="#" class="list-group-item">Link</a>
-                                <a href="#" class="list-group-item">Link</a>
-                                <a href="#" class="list-group-item">Link</a>
-                            </div>
-                        </div>
-                    </nav>
-
-                    <div class="col-md-10 col-sm-10 col-xs-12">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
 
                     <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
                         <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
@@ -145,6 +145,7 @@
 
                 </div>
             </footer>
+        </div>
         </div>  
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
     <script src="js/bootstrap.min.js" defer></script>
