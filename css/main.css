@@ -3938,11 +3938,7 @@ body {
 }
 body {
   font-size: 16px;
-<<<<<<< HEAD
-  background-color: #dee9ef;
-=======
   background: #DEE9EF;
->>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
 }
 /***********************************************************************************************/
 /*Typography*/
@@ -3982,7 +3978,6 @@ h3 {
 /*Header*/
 /***********************************************************************************************/
 .header {
-<<<<<<< HEAD
   height: 100px;
   background-color: #eff1f4;
   margin-bottom: 2%;
@@ -3990,7 +3985,6 @@ h3 {
   -moz-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
   box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
   border-bottom: 1px solid #fff;
-=======
   height: 60px;
   border-bottom: 2px solid #fff;
   background: #EFF1F4;
@@ -4014,7 +4008,6 @@ h3 {
 }
 .news-highlights p {
   margin: 0;
->>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
 }
 /***********************************************************************************************/
 /*Navigation*/
@@ -4078,7 +4071,9 @@ a.list-group-item.active:hover {
 .talk-to-us a {
   color: #999999;
 }
-<<<<<<< HEAD
+.popular-product {
+  background: #fff;
+}
 .feat-prod {
   margin: 0 0 20px 0;
   background-color: #fff;
@@ -4089,19 +4084,15 @@ a.list-group-item.active:hover {
 .footer {
   background: #eff1f4;
   border-top: 1px solid #fff;
-  -webkit-box-shadow: 0px -2px 2px 0px rgba(50, 50, 50, 0.23);
-  -moz-box-shadow: 0px -2px 2px 0px rgba(50, 50, 50, 0.23);
-  box-shadow: 0px -2px 2px 0px rgba(50, 50, 50, 0.23);
-=======
-.popular-product {
-  background: #fff;
+  -webkit-box-shadow: -2px 2px 0px rgba(50, 50, 50, 0.23);
+  -moz-box-shadow: -2px 2px 0px rgba(50, 50, 50, 0.23);
+  box-shadow: -2px 2px 0px rgba(50, 50, 50, 0.23);
 }
 .ratings {
   font-size: 1.2rem;
 }
 .ratings div {
   display: inline-block;
->>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
 }
 /***********************************************************************************************/
 /*Off canvas*/
@@ -4164,8 +4155,8 @@ a.list-group-item.active:hover {
 /***********************************************************************************************/
 @font-face {
   font-family: 'icomoon';
-  src: url('../fonts/icomoon.eot?-s49znh');
-  src: url('../fonts/icomoon.eot?#iefix-s49znh') format('embedded-opentype'), url('../fonts/icomoon.woff?-s49znh') format('woff'), url('../fonts/icomoon.ttf?-s49znh') format('truetype'), url('../fonts/icomoon.svg?-s49znh#icomoon') format('svg');
+  src: url('../fonts/icomoon.eot?');
+  src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg?#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
