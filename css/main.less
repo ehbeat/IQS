@@ -62,7 +62,11 @@ Contents
 /***********************************************************************************************/
 /*LESS Variables*/
 /***********************************************************************************************/
+@head-col1: #664C00;
+@head-col2: #393F4C;
 
+@col-light-grey:#CCC;
+@col-dark-grey: #999;
 
 
 @mont :'Montserrat', sans-serif;
@@ -81,6 +85,7 @@ html, body {
 
 body {
     font-size: 16px;
+    background: #DEE9EF;
 }
 
 /***********************************************************************************************/
@@ -89,6 +94,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
+}
+
+h3 {
+    font-family: @mont;
+    font-size: 22px;
+    color: @head-col2;
+    font-weight: normal;
 }
 
 /***********************************************************************************************/
@@ -108,9 +120,19 @@ h1, h2, h3, h4, h5, h6 {
 /***********************************************************************************************/
 
 .header {
-    height: 100px;
+    height: 60px;
+    border-bottom: 2px solid #fff;
+    background: #EFF1F4;
 }
 
+.nav-primary {
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+.logo {
+    margin-top: 1rem;
+}
 /***********************************************************************************************/
 /*Navigation*/
 /***********************************************************************************************/
@@ -135,14 +157,30 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 /*Product Catalog*/
 /***********************************************************************************************/
 
-.feat-image {
-    height: 164px;
-    width: 164px;
-    padding: 8px;
-    background: grey;
+.prom-image {
+    img {
+        background: grey;
+        height: 164px;
+        width: 164px;        
+    }
 }
-.feat-prod {
-    margin: 0 0 20px 0;
+.prom-prod {
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.prom-content {
+
+}
+
+.talk-to-us {
+    background: @col-light-grey;
+    padding: 8px;
+    font-size: 1.3rem;
+    color: @col-dark-grey;
+    a{
+        color: @col-dark-grey;
+    }
 }
 
 /***********************************************************************************************/

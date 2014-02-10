@@ -3938,6 +3938,7 @@ body {
 }
 body {
   font-size: 16px;
+  background: #DEE9EF;
 }
 /***********************************************************************************************/
 /*Typography*/
@@ -3949,6 +3950,12 @@ h4,
 h5,
 h6 {
   margin-top: 0;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: #393f4c;
+  font-weight: normal;
 }
 /***********************************************************************************************/
 /*Iconography*/
@@ -3963,7 +3970,16 @@ h6 {
 /*Header*/
 /***********************************************************************************************/
 .header {
-  height: 100px;
+  height: 60px;
+  border-bottom: 2px solid #fff;
+  background: #EFF1F4;
+}
+.nav-primary {
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+.logo {
+  margin-top: 1rem;
 }
 /***********************************************************************************************/
 /*Navigation*/
@@ -3987,14 +4003,23 @@ a.list-group-item.active:focus {
 /***********************************************************************************************/
 /*Product Catalog*/
 /***********************************************************************************************/
-.feat-image {
+.prom-image img {
+  background: grey;
   height: 164px;
   width: 164px;
-  padding: 8px;
-  background: grey;
 }
-.feat-prod {
-  margin: 0 0 20px 0;
+.prom-prod {
+  margin-bottom: 20px;
+  background: #fff;
+}
+.talk-to-us {
+  background: #cccccc;
+  padding: 8px;
+  font-size: 1.3rem;
+  color: #999999;
+}
+.talk-to-us a {
+  color: #999999;
 }
 /***********************************************************************************************/
 /*Off canvas*/

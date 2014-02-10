@@ -59,11 +59,11 @@
             <header>
                 <div class="header clearfix">
                     <div class="row">
-                        <div id="nav-primary" class="col-md-2 col-xs-2" data-toggle="offcanvas">
-                            Nav
+                        <div id="nav-primary" class="col-md-1 col-xs-2" data-toggle="offcanvas">
+                            <span class="nav-primary text-center col-md-12 icon icon-list2"></span>
                         </div>
-                        <div class="col-md-3 col-xs-6 logo">
-                            Logo
+                        <div class="col-md-4 col-xs-6 logo">
+                            <img src="images/iqs-logo.png" alt="IQS Online" width="110" height="34">
                         </div>
                         <div class="col-md-2 col-xs-2 pull-right">
                             Nav
@@ -73,7 +73,6 @@
                         </div>
                     </div>
                 </div>
-
             </header>
 
             <section>
@@ -81,31 +80,41 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
 
-                        <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                            <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                            </div>
-                            <div class="col-md-12 col-sm-6 col-xs-12">
-                                <h3>Commercial Crime</h3>
-                                <h5>Architects</h5>
-                                <div class="s-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
-                                </div>
-                                <div class="pull-right"><span class="icon-left icon icon-bubble"></span>Talk to us</div>
-                            </div>
-                        </div>
+                            <div class="col-md-5 col-sm-6 col-xs-12 prom-prod">
 
-                        <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                            <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                            </div>
-                            <div class="col-md-12 col-sm-6 col-xs-12">
-                                <h3>Commercial Crime</h3>
-                                <h5>Architects</h5>
-                                <div class="s-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                                <div class="pull-left prom-image">
+                                    <img src="" />
                                 </div>
-                                <div class="pull-right"><span class="icon-left icon icon-bubble"></span>Talk to us</div>
+
+                                <div class="col-md-7 col-sm-6 col-xs-12 prom-content">
+                                    <h3>Commercial Crime</h3>
+                                    <h5>Architects</h5>
+                                    <div class="s-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                                    </div>
+                                    <div class="col-md-12 talk-to-us">
+                                        <div class="pull-right"><a href="#"><span class="icon-left icon icon-bubble"></span>Talk to us</a></div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+
+                            <div class="col-md-5 col-sm-6 col-xs-12 col-md-offset-2 prom-prod">
+
+                                <div class="pull-left prom-image">
+                                    <img src="" />
+                                </div>
+
+                                <div class="col-md-7 col-sm-6 col-xs-12 prom-content">
+                                    <h3>Commercial Crime</h3>
+                                    <h5>Architects</h5>
+                                    <div class="s-desc">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                                    </div>
+                                    <div class="col-md-12 talk-to-us">
+                                        <div class="pull-right"><a href="#"><span class="icon-left icon icon-bubble"></span>Talk to us</a></div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
