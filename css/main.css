@@ -3978,9 +3978,7 @@ h3 {
 /*Header*/
 /***********************************************************************************************/
 .header {
-  height: 100px;
   background-color: #eff1f4;
-  margin-bottom: 2%;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
   -moz-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
   box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
