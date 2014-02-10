@@ -80,20 +80,6 @@
 
             <section>
                 <div class="clearfix">
-<<<<<<< HEAD
-                    <div class="col-md-10 col-sm-10 col-xs-12">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                            <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                            </div>
-                            <div class="col-md-12 col-sm-6 col-xs-12">
-                                <h3>Commercial Crime</h3>
-                                <h5>Architects</h5>
-                                <div class="s-desc">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
-=======
-
                     <div class="row main-content">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <h1>Professional Indemnity</h1>
@@ -104,7 +90,6 @@
 
                                 <div class="pull-left prom-image">
                                     <img src="" />
->>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
                                 </div>
 
                                 <div class="col-md-7 col-sm-6 col-xs-12 prom-content">
