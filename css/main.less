@@ -96,6 +96,16 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
+h1 {
+    font-size: 4.2rem;
+    color: @head-col1;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: @head-col1;
+}
+
 h3 {
     font-family: @mont;
     font-size: 22px;
@@ -133,6 +143,20 @@ h3 {
 .logo {
     margin-top: 1rem;
 }
+.news-highlights {
+    background: #DADADA;
+    color: #777777;
+    font-size:1.5rem;
+    padding:8px 15px;
+    a {
+     color: #777777;
+     text-decoration: underline; 
+    }
+    p {
+        margin: 0;
+    }
+}
+
 /***********************************************************************************************/
 /*Navigation*/
 /***********************************************************************************************/
@@ -151,6 +175,17 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     color: #FFF;
     background-color: #428BCA;
     border-color: #428BCA;
+}
+
+/***********************************************************************************************/
+/*Main Content*/
+/***********************************************************************************************/
+
+.main-content {
+    margin-top: 30px;
+    h1~h2 {
+        margin-top: 35px;
+    }
 }
 
 /***********************************************************************************************/
@@ -181,6 +216,11 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     a{
         color: @col-dark-grey;
     }
+}
+
+.popular-product {
+    background: #fff;
+    height: 100px;
 }
 
 /***********************************************************************************************/

@@ -3951,6 +3951,14 @@ h5,
 h6 {
   margin-top: 0;
 }
+h1 {
+  font-size: 4.2rem;
+  color: #664c00;
+}
+h2 {
+  font-size: 2.8rem;
+  color: #664c00;
+}
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 22px;
@@ -3981,6 +3989,19 @@ h3 {
 .logo {
   margin-top: 1rem;
 }
+.news-highlights {
+  background: #DADADA;
+  color: #777777;
+  font-size: 1.5rem;
+  padding: 8px 15px;
+}
+.news-highlights a {
+  color: #777777;
+  text-decoration: underline;
+}
+.news-highlights p {
+  margin: 0;
+}
 /***********************************************************************************************/
 /*Navigation*/
 /***********************************************************************************************/
@@ -3999,6 +4020,15 @@ a.list-group-item.active:focus {
   color: #FFF;
   background-color: #428BCA;
   border-color: #428BCA;
+}
+/***********************************************************************************************/
+/*Main Content*/
+/***********************************************************************************************/
+.main-content {
+  margin-top: 30px;
+}
+.main-content h1 ~ h2 {
+  margin-top: 35px;
 }
 /***********************************************************************************************/
 /*Product Catalog*/
@@ -4020,6 +4050,10 @@ a.list-group-item.active:focus {
 }
 .talk-to-us a {
   color: #999999;
+}
+.popular-product {
+  background: #fff;
+  height: 100px;
 }
 /***********************************************************************************************/
 /*Off canvas*/

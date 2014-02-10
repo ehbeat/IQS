@@ -73,12 +73,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="news-highlights col-md-12">
+                    <p>Feb 06 2014 14:01 The majority of South Africa’s new multimillionaires - those with more than R300m - earned their... <a href="#">read more</a></p>
+                </div>
             </header>
 
             <section>
                 <div class="clearfix">
-                    <div class="row">
+
+                    <div class="row main-content">
                         <div class="col-md-12 col-sm-12 col-xs-12">
+                            <h1>Professional Indemnity</h1>
+                            <p>Liability insurance that helps protect professional advice and service-providing individuals and companies!</p>
+                            <h2>Promoted Products</h2>
 
                             <div class="col-md-5 col-sm-6 col-xs-12 prom-prod">
 
@@ -115,9 +122,21 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
+                        <div class="row ">
+                            <div class="col-md-12">
+                                <h2>Popular Products</h2>
+                                <div class="col-md-2 popular-product">
+                                </div>
+                                <div class="col-md-2 col-md-offset-1 popular-product">
+                                </div>
+                                <div class="col-md-2 col-md-offset-2 popular-product">
+                                </div>
+                                <div class="col-md-2 col-md-offset-1 popular-product">
+                                </div>                            
+                            </div>
+                        </div>
                 </div>
             </section>
 
