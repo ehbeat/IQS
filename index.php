@@ -42,16 +42,16 @@
                 <nav>
                     <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
                         <div class="list-group">
-                            <a href="#" class="list-group-item">Search</a>
+                            <a href="#" class="list-group-item-searchbox">Search<span class="icon-right icon icon-search"></span></a>
                             <a href="#" class="list-group-item"><span class="icon-left icon icon-user"></span>Contacts</a>
                             <a href="#" class="list-group-item"><span class="icon-left icon icon-file"></span>Quotes</a>
                             <a href="#" class="list-group-item"><span class="icon-left icon icon-star"></span>Favourites</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-bubbles"></span>Chat</a>
+                            <a href="#" class="list-group-item"><span class="icon-left icon icon-bubbles3"></span>Chat</a>
                             <a href="#" class="list-group-item"><span class="icon-left icon icon-checkbox-unchecked"></span>Activity</a>
                             <a href="#" class="list-group-item"><span class="icon-left icon icon-checkbox-unchecked"></span>MarketApps</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-user"></span>Product Market</a>
+                            <a href="#" class="list-group-item active"><span class="icon-left icon icon-user5"></span>Product Market</a>
                             <a href="#" class="list-group-item"><span class="icon-left icon icon-users"></span>Product Providers</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-checkbox-unchecked"></span>News</a>
+                            <a href="#" class="list-group-item"><span class="icon-left icon icon-newspaper"></span>News</a>
                         </div>
                     </div>
                 </nav>
