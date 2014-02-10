@@ -192,11 +192,11 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
 /*Product Catalog*/
 /***********************************************************************************************/
 
-.prom-image {
+.prom-image, .pop-image {
     img {
-        background: grey;
         height: 164px;
-        width: 164px;        
+        width: 164px;    
+        padding-top: 15px    
     }
 }
 .prom-prod {
@@ -213,14 +213,21 @@ a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.acti
     padding: 8px;
     font-size: 1.3rem;
     color: @col-dark-grey;
-    a{
+    a {
         color: @col-dark-grey;
     }
 }
 
 .popular-product {
     background: #fff;
-    height: 100px;
+}
+
+.ratings {
+    font-size: 1.2rem;
+    div {
+        display: inline-block;
+    }
+
 }
 
 /***********************************************************************************************/

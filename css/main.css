@@ -4033,10 +4033,11 @@ a.list-group-item.active:focus {
 /***********************************************************************************************/
 /*Product Catalog*/
 /***********************************************************************************************/
-.prom-image img {
-  background: grey;
+.prom-image img,
+.pop-image img {
   height: 164px;
   width: 164px;
+  padding-top: 15px;
 }
 .prom-prod {
   margin-bottom: 20px;
@@ -4053,7 +4054,12 @@ a.list-group-item.active:focus {
 }
 .popular-product {
   background: #fff;
-  height: 100px;
+}
+.ratings {
+  font-size: 1.2rem;
+}
+.ratings div {
+  display: inline-block;
 }
 /***********************************************************************************************/
 /*Off canvas*/
