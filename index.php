@@ -162,7 +162,13 @@
                                     </div>
                                     <div class="col-md-12">
                                         <h3>Commercial Crime</h3>
-                                        <h5>Architects</h5>                              
+                                        <h5>Architects</h5>   
+                                        <div class="ratings">
+                                            <div>Rating</div>
+                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
+                                            <div>Popularity</div>
+                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
+                                        </div>                                                                   
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-md-offset-2 popular-product">
