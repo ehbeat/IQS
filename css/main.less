@@ -62,7 +62,11 @@ Contents
 /***********************************************************************************************/
 /*LESS Variables*/
 /***********************************************************************************************/
+@head-col1: #664C00;
+@head-col2: #393F4C;
 
+@col-light-grey:#CCC;
+@col-dark-grey: #999;
 
 
 @mont :'Montserrat', sans-serif;
@@ -81,7 +85,11 @@ html, body {
 
 body {
     font-size: 16px;
+<<<<<<< HEAD
     background-color: #dee9ef;
+=======
+    background: #DEE9EF;
+>>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
 }
 
 /***********************************************************************************************/
@@ -90,6 +98,23 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
+}
+
+h1 {
+    font-size: 4.2rem;
+    color: @head-col1;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: @head-col1;
+}
+
+h3 {
+    font-family: @mont;
+    font-size: 22px;
+    color: @head-col2;
+    font-weight: normal;
 }
 
 /***********************************************************************************************/
@@ -109,6 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 /***********************************************************************************************/
 
 .header {
+<<<<<<< HEAD
     height: 100px;
     background-color: #eff1f4;
     margin-bottom: 2%;
@@ -116,6 +142,33 @@ h1, h2, h3, h4, h5, h6 {
     -moz-box-shadow:    0px 2px 2px 0px rgba(50, 50, 50, 0.23);
     box-shadow:         0px 2px 2px 0px rgba(50, 50, 50, 0.23);
     border-bottom: 1px solid #fff;
+=======
+    height: 60px;
+    border-bottom: 2px solid #fff;
+    background: #EFF1F4;
+}
+
+.nav-primary {
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+.logo {
+    margin-top: 1rem;
+}
+.news-highlights {
+    background: #DADADA;
+    color: #777777;
+    font-size:1.5rem;
+    padding:8px 15px;
+    a {
+     color: #777777;
+     text-decoration: underline; 
+    }
+    p {
+        margin: 0;
+    }
+>>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
 }
 
 /***********************************************************************************************/
@@ -160,15 +213,50 @@ a.list-group-item.active:focus {
 }
 
 /***********************************************************************************************/
+/*Main Content*/
+/***********************************************************************************************/
+
+.main-content {
+    margin-top: 30px;
+    h1~h2 {
+        margin-top: 35px;
+    }
+}
+
+/***********************************************************************************************/
 /*Product Catalog*/
 /***********************************************************************************************/
 
-.feat-image {
-    height: 164px;
-    width: 164px;
-    padding: 8px;
-    background: grey;
+.prom-image, .pop-image {
+    img {
+        height: 164px;
+        width: 164px;    
+        padding-top: 15px    
+    }
 }
+.prom-prod {
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.prom-content {
+
+}
+
+.talk-to-us {
+    background: @col-light-grey;
+    padding: 8px;
+    font-size: 1.3rem;
+    color: @col-dark-grey;
+    a {
+        color: @col-dark-grey;
+    }
+}
+
+.popular-product {
+    background: #fff;
+}
+<<<<<<< HEAD
 .feat-prod {
     margin: 0 0 20px 0;
     background-color: #fff;
@@ -184,6 +272,15 @@ a.list-group-item.active:focus {
     -webkit-box-shadow: 0px -2px 2px 0px rgba(50, 50, 50, 0.23);
     -moz-box-shadow:    0px -2px 2px 0px rgba(50, 50, 50, 0.23);
     box-shadow:         0px -2px 2px 0px rgba(50, 50, 50, 0.23);
+=======
+
+.ratings {
+    font-size: 1.2rem;
+    div {
+        display: inline-block;
+    }
+
+>>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
 }
 
 

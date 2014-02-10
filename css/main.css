@@ -3938,7 +3938,11 @@ body {
 }
 body {
   font-size: 16px;
+<<<<<<< HEAD
   background-color: #dee9ef;
+=======
+  background: #DEE9EF;
+>>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
 }
 /***********************************************************************************************/
 /*Typography*/
@@ -3950,6 +3954,20 @@ h4,
 h5,
 h6 {
   margin-top: 0;
+}
+h1 {
+  font-size: 4.2rem;
+  color: #664c00;
+}
+h2 {
+  font-size: 2.8rem;
+  color: #664c00;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  color: #393f4c;
+  font-weight: normal;
 }
 /***********************************************************************************************/
 /*Iconography*/
@@ -3964,6 +3982,7 @@ h6 {
 /*Header*/
 /***********************************************************************************************/
 .header {
+<<<<<<< HEAD
   height: 100px;
   background-color: #eff1f4;
   margin-bottom: 2%;
@@ -3971,6 +3990,31 @@ h6 {
   -moz-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
   box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
   border-bottom: 1px solid #fff;
+=======
+  height: 60px;
+  border-bottom: 2px solid #fff;
+  background: #EFF1F4;
+}
+.nav-primary {
+  font-size: 4rem;
+  padding-top: 1rem;
+}
+.logo {
+  margin-top: 1rem;
+}
+.news-highlights {
+  background: #DADADA;
+  color: #777777;
+  font-size: 1.5rem;
+  padding: 8px 15px;
+}
+.news-highlights a {
+  color: #777777;
+  text-decoration: underline;
+}
+.news-highlights p {
+  margin: 0;
+>>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
 }
 /***********************************************************************************************/
 /*Navigation*/
@@ -4004,14 +4048,37 @@ a.list-group-item.active:hover {
   background-color: #fff;
 }
 /***********************************************************************************************/
+/*Main Content*/
+/***********************************************************************************************/
+.main-content {
+  margin-top: 30px;
+}
+.main-content h1 ~ h2 {
+  margin-top: 35px;
+}
+/***********************************************************************************************/
 /*Product Catalog*/
 /***********************************************************************************************/
-.feat-image {
+.prom-image img,
+.pop-image img {
   height: 164px;
   width: 164px;
-  padding: 8px;
-  background: grey;
+  padding-top: 15px;
 }
+.prom-prod {
+  margin-bottom: 20px;
+  background: #fff;
+}
+.talk-to-us {
+  background: #cccccc;
+  padding: 8px;
+  font-size: 1.3rem;
+  color: #999999;
+}
+.talk-to-us a {
+  color: #999999;
+}
+<<<<<<< HEAD
 .feat-prod {
   margin: 0 0 20px 0;
   background-color: #fff;
@@ -4025,6 +4092,16 @@ a.list-group-item.active:hover {
   -webkit-box-shadow: 0px -2px 2px 0px rgba(50, 50, 50, 0.23);
   -moz-box-shadow: 0px -2px 2px 0px rgba(50, 50, 50, 0.23);
   box-shadow: 0px -2px 2px 0px rgba(50, 50, 50, 0.23);
+=======
+.popular-product {
+  background: #fff;
+}
+.ratings {
+  font-size: 1.2rem;
+}
+.ratings div {
+  display: inline-block;
+>>>>>>> 1179dbbb726610acb1beba9df1f4dd41fd491270
 }
 /***********************************************************************************************/
 /*Off canvas*/
