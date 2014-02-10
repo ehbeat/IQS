@@ -78,63 +78,37 @@
 
             <section>
                 <div class="clearfix">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
 
-                    <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                        <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                        </div>
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <h3>Commercial Crime</h3>
-                            <h5>Architects</h5>
-                            <div class="s-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                        <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
+                            <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
                             </div>
-                            <div class="pull-right"><span class="icon-left glyphicon glyphicon-comment"></span>Talk to us</div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                        <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                        </div>
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <h3>Commercial Crime</h3>
-                            <h5>Architects</h5>
-                            <div class="s-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                            <div class="col-md-12 col-sm-6 col-xs-12">
+                                <h3>Commercial Crime</h3>
+                                <h5>Architects</h5>
+                                <div class="s-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                                </div>
+                                <div class="pull-right"><span class="icon-left icon icon-bubble"></span>Talk to us</div>
                             </div>
-                            <div class="pull-right"><span class="icon-left glyphicon glyphicon-comment"></span>Talk to us</div>
                         </div>
-                    </div>
 
-                    <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                        <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                        </div>
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <h3>Commercial Crime</h3>
-                            <h5>Architects</h5>
-                            <div class="s-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                        <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
+                            <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
                             </div>
-                            <div class="pull-right"><span class="icon-left glyphicon glyphicon-comment"></span>Talk to us</div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                        <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                        </div>
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <h3>Commercial Crime</h3>
-                            <h5>Architects</h5>
-                            <div class="s-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                            <div class="col-md-12 col-sm-6 col-xs-12">
+                                <h3>Commercial Crime</h3>
+                                <h5>Architects</h5>
+                                <div class="s-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                                </div>
+                                <div class="pull-right"><span class="icon-left icon icon-bubble"></span>Talk to us</div>
                             </div>
-                            <div class="pull-right"><span class="icon-left glyphicon glyphicon-comment"></span>Talk to us</div>
+                        </div>
+
                         </div>
                     </div>
-
-                    </div>
-                </div>
                 </div>
             </section>
 
