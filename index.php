@@ -38,7 +38,24 @@
     </head>
 
     <body>
-        <div class="container-fluid">
+        <div class="container-fluid row-offcanvas row-offcanvas-left">
+                <nav>
+                    <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item active">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                            <a href="#" class="list-group-item">Link</a>
+                        </div>
+                    </div>
+                </nav>
+            <div class="col-sm-10">
             <header>
                 <div class="header clearfix">
                     <div class="row">
@@ -80,61 +97,36 @@
                     </nav>
 
                     <div class="col-md-10 col-sm-10 col-xs-12">
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                        <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                        </div>
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <h3>Commercial Crime</h3>
-                            <h5>Architects</h5>
-                            <div class="s-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
+                            <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
                             </div>
-                            <div class="pull-right"><span class="icon-left glyphicon glyphicon-comment"></span>Talk to us</div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                        <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                        </div>
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <h3>Commercial Crime</h3>
-                            <h5>Architects</h5>
-                            <div class="s-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                            <div class="col-md-12 col-sm-6 col-xs-12">
+                                <h3>Commercial Crime</h3>
+                                <h5>Architects</h5>
+                                <div class="s-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                                </div>
+                                <div class="pull-right"><span class="icon-left icon icon-bubble"></span>Talk to us</div>
                             </div>
-                            <div class="pull-right"><span class="icon-left glyphicon glyphicon-comment"></span>Talk to us</div>
                         </div>
-                    </div>
 
-                    <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                        <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                        </div>
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <h3>Commercial Crime</h3>
-                            <h5>Architects</h5>
-                            <div class="s-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                        <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
+                            <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
                             </div>
-                            <div class="pull-right"><span class="icon-left glyphicon glyphicon-comment"></span>Talk to us</div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 col-xs-12 feat-prod">
-                        <div class="col-md-12 col-sm-6 col-xs-12 feat-image">
-                        </div>
-                        <div class="col-md-12 col-sm-6 col-xs-12">
-                            <h3>Commercial Crime</h3>
-                            <h5>Architects</h5>
-                            <div class="s-desc">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                            <div class="col-md-12 col-sm-6 col-xs-12">
+                                <h3>Commercial Crime</h3>
+                                <h5>Architects</h5>
+                                <div class="s-desc">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
+                                </div>
+                                <div class="pull-right"><span class="icon-left icon icon-bubble"></span>Talk to us</div>
                             </div>
-                            <div class="pull-right"><span class="icon-left glyphicon glyphicon-comment"></span>Talk to us</div>
+                        </div>
+
                         </div>
                     </div>
-
-                    </div>
-                </div>
                 </div>
             </section>
 
@@ -145,6 +137,7 @@
 
                 </div>
             </footer>
+        </div>
         </div>  
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
     <script src="js/bootstrap.min.js" defer></script>

@@ -112,6 +112,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 100px;
     background-color: #eff1f4;
     margin-bottom: 2%;
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.23);
+    -moz-box-shadow:    0px 3px 2px 0px rgba(50, 50, 50, 0.23);
+    box-shadow:         0px 3px 2px 0px rgba(50, 50, 50, 0.23);
 }
 
 /***********************************************************************************************/
@@ -160,7 +163,9 @@ a.list-group-item.active:focus {
 /***********************************************************************************************/
 
 .feat-image {
-    height: 229px;
+    height: 164px;
+    width: 164px;
+    padding: 8px;
     background: grey;
 }
 .feat-prod {
@@ -214,3 +219,9 @@ a.list-group-item.active:focus {
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
+
+/***********************************************************************************************/
+/*Icons*/
+/***********************************************************************************************/
+
+@import "../fonts/style.less";
