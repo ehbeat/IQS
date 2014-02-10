@@ -4582,18 +4582,29 @@ h6 {
 .header {
   height: 100px;
   background-color: #eff1f4;
-  margin-bottom: 5px;
+  margin-bottom: 2%;
 }
 /***********************************************************************************************/
 /*Navigation*/
 /***********************************************************************************************/
+.searchbar {
+  background-color: #68686f;
+  display: block;
+  padding: 15px;
+  width: 50%;
+  margin: auto;
+}
+.list-group {
+  background-color: #23232e;
+}
 .list-group-item {
   position: relative;
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #23232e;
-  border: 1px solid #DDD;
+  border: 1px solid #2d2d35;
+  color: #fff;
 }
 a.list-group-item.active {
   z-index: 2;
