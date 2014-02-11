@@ -37,175 +37,122 @@
         <![endif]-->
     </head>
 
-    <body>
-        <div class="container-fluid row-offcanvas row-offcanvas-left">
-                <nav>
-                    <div class="col-xs-6 col-sm-2 sidebar-offcanvas" id="sidebar" role="navigation">
-                        <div class="list-group">
-                            <a href="#" class="list-group-item-searchbox">Search<span class="icon-right icon icon-search"></span></a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-user"></span>Contacts</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-file"></span>Quotes</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-star"></span>Favourites</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-bubbles3"></span>Chat</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-checkbox-unchecked"></span>Activity</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-checkbox-unchecked"></span>MarketApps</a>
-                            <a href="#" class="list-group-item active"><span class="icon-left icon icon-user5"></span>Product Market</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-users"></span>Product Providers</a>
-                            <a href="#" class="list-group-item"><span class="icon-left icon icon-newspaper"></span>News</a>
-                        </div>
-                    </div>
-                </nav>
-            <div class="col-sm-10">
-            <header>
-                <div class="header clearfix">
-                    <div class="row">
-                        <div id="nav-primary" class="col-md-1 col-sm-1 col-xs-1" data-toggle="offcanvas">
-                            <span class="nav-primary text-center icon icon-list2"></span>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6 logo">
-                            <img src="images/iqs-logo.png" alt="IQS Online" width="110" height="34">
-                        </div>
-                        <div class="col-md-2 col-sm-2 col-xs-1 pull-right">
-                            Nav
-                        </div>
-                        <div class="col-md-2 col-sm-2 col-xs-1 pull-right">
-                            Nav
-                        </div>
-                    </div>
-                </div>
-                <div class="news-highlights col-md-12">
-                    <p>Feb 06 2014 14:01 The majority of South Africa’s new multimillionaires - those with more than R300m - earned their... <a href="#">read more</a></p>
-                </div>
-            </header>
+<body>
+<nav class="sidebar">
+<div class="search"></div>
+  <ul>
+    <li><a><span class="entypo-user"></span>Contacts</a><div class="subnavclick"><span class="entypo-down-dir arrow"></span><span class="searchcount">224</span></div>
+      <ul id="contacts" class="subnav">
+        <li><a>Customers<span class="notification">(8)</span> <span class="arrow">&nbsp;</span><span class="searchcount">24</span></a></li>
+        <li><a>Insurers <span class="arrow">&nbsp;</span><span class="searchcount">37</span></a></li>
+        <li><a>Colleugues<span class="notification">(4)</span> <span class="arrow">&nbsp;</span><span class="searchcount">9</span></a></li>
+        <li><a>Service Providers <span class="arrow">&nbsp;</span><span class="searchcount">2</span></a></li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <li><a><span class="entypo-doc-text"></span>Quotes</a><div class="subnavclick"><span class="entypo-down-dir arrow"></span><span class="searchcount">224</span></div>
+      <ul id="quotes" class="subnav">
+        <li><a>Quotes Request</a></li>
+        <li><a>Quotes</a></li>
+        <li><a>History</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
-            <section>
-                <div class="clearfix">
-                    <div class="row main-content">
-                        <div class="col-md-12">
-                            <h1>Professional Indemnity</h1>
-                            <p>Liability insurance that helps protect professional advice and service-providing individuals and companies!</p>
-                            <h2>Promoted Products</h2>
 
-                            <div class="col-md-6 col-sm-5 col-xs-12 prom-prod">
+<div id="body-content" class="viewnav">
+<header>
+  <div  class="hamburger">
+      <a class="entypo-menu icon icon-list2">
+    </a>
+  </div>
 
-                                <div class="pull-left prom-image">
-                                    <img src="" />
-                                </div>
+  <div class="logo"><a><span></span></a></div>
+  <div class="profile"></div>
+  <div class="notifications">
+      <a>
+        <div class="sprite"></div>
+      </a>
+  </div>
+</header>
 
-                                <div class="col-md-7 col-sm-5 col-xs-12 prom-content">
-                                    <h3>Commercial Crime</h3>
-                                    <h5>Architects</h5>
-                                    <div class="s-desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
-                                    </div>
-                                    <div class="col-md-12 talk-to-us">
-                                        <div class="pull-right"><a href="#"><span class="icon-left icon icon-bubble"></span>Talk to us</a></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 col-sm-5 col-xs-12 prom-prod">
-
-                                <div class="pull-left prom-image">
-                                    <img src="" />
-                                </div>
-
-                                <div class="col-md-7 col-sm-5 col-xs-12 prom-content">
-                                    <h3>Commercial Crime</h3>
-                                    <h5>Architects</h5>
-                                    <div class="s-desc">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel. Lorem ipsum</p>
-                                    </div>
-                                    <div class="col-md-12 talk-to-us">
-                                        <div class="pull-right"><a href="#"><span class="icon-left icon icon-bubble"></span>Talk to us</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                        <div class="row ">
-                            <div class="col-md-12">
-                                <h2>Popular Products</h2>
-                                <div class="col-md-2 col-sm-2 popular-product">
-                                    <div class="pull-left pop-image">
-                                        <img src="" />
-                                    </div>
-                                    <div class="col-md-12">
-                                        <h3>Commercial Crime</h3>
-                                        <h5>Architects</h5>   
-                                        <div class="ratings">
-                                            <div>Rating</div>
-                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
-                                            <div>Popularity</div>
-                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
-                                        </div>                           
-                                    </div>
-                                </div>
-
-                                <div class="col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-1 popular-product">
-                                    <div class="pull-left pop-image">
-                                        <img src="" />
-                                    </div>
-                                    <div class="col-md-12">
-                                        <h3>Commercial Crime</h3>
-                                        <h5>Architects</h5>   
-                                        <div class="ratings">
-                                            <div>Rating</div>
-                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
-                                            <div>Popularity</div>
-                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
-                                        </div>                                                                   
-                                    </div>
-                                </div>
-
-                                <div class="col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-2 popular-product">
-                                    <div class="pull-left pop-image">
-                                        <img src="" />
-                                    </div>
-                                    <div class="col-md-12">
-                                        <h3>Commercial Crime</h3>
-                                        <h5>Architects</h5>     
-                                        <div class="ratings">
-                                            <div>Rating</div>
-                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
-                                            <div>Popularity</div>
-                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
-                                        </div>                                                                    
-                                    </div>
-                                </div>
-
-                                <div class="col-md-2 col-sm-2 popular-product">
-                                    <div class="pull-left pop-image">
-                                        <img src="" />
-                                    </div>
-                                    <div class="col-md-12">
-                                        <h3>Commercial Crime</h3>
-                                        <h5>Architects</h5>   
-                                        <div class="ratings">
-                                            <div>Rating</div>
-                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
-                                            <div>Popularity</div>
-                                            <span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span>
-                                        </div>                                                                      
-                                    </div>
-                                </div>                            
-                            </div>
-                        </div>
-                </div>
-            </section>
-
-            <footer>
-                <div class="footer text-center">
-
-                            Footer
-
-                </div>
-            </footer>
-        </div>
-        </div>  
+<div id="main-content">
+<h1>Professional Indemnity</h1>
+<p>Liability insurance that helps protect professional advice and service-providing individuals and companies!</p>
+<h2>Promoted Products</h2>
+<div class="promoted cardwrapper clearfix">
+  <div class="card clearfix">
+    <div class="cover"></div>
+    <div class="details">
+      <h3><a class="title">Commercial Crime</a></h3>
+      <div class="category">Architects</div>
+      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
+    </div>
+    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
+  </div>
+  <div class="card clearfix">
+    <div class="cover"></div>
+    <div class="details">
+      <h3><a class="title">Commercial Crime</a></h3>
+      <div class="category">Architects</div>
+      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
+    </div>
+    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
+  </div>
+  <div class="card clearfix">
+    <div class="cover"></div>
+    <div class="details">
+      <h3><a class="title">Commercial Crime</a></h3>
+      <div class="category">Architects</div>
+      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
+    </div>
+    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
+  </div>
+  <div class="card clearfix">
+    <div class="cover"></div>
+    <div class="details">
+      <h3><a class="title">Commercial Crime</a></h3>
+      <div class="category">Architects</div>
+      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
+    </div>
+    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
+  </div>
+  <div class="card clearfix">
+    <div class="cover"></div>
+    <div class="details">
+      <h3><a class="title">Commercial Crime</a></h3>
+      <div class="category">Architects</div>
+      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
+    </div>
+    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
+  </div>
+  <div class="card clearfix">
+    <div class="cover"></div>
+    <div class="details">
+      <h3><a class="title">Commercial Crime</a></h3>
+      <div class="category">Architects</div>
+      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
+    </div>
+    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
+  </div>	
+</div>
+<h2>Popular Products</h2>
+<div class="popular cardwrapper clearfix">
+  <div class="card">
+    <div class="cover"></div>
+    <div class="details">
+      <h3><a class="title">Commercial Crime</a></h3>
+      <div class="category">Architects</div>
+      <div class="footer">rating popularity</div>
+    </div>
+  </div>
+</div>
+</div>
+<footer><div><a href="#">Privacy & Terms</a> | <a href="#">Settings</a> | <a href="#">Advertising</a> | <a href="#">About</a><div class="smalllogo"></div></div></footer>
+</div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
-    <script src="js/bootstrap.min.js" defer></script>
     <script src="js/functions.min.js" defer></script>
     </body>
 </html>

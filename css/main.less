@@ -18,6 +18,65 @@ Contents
 /***********************************************************************************************/
 
 /***********************************************************************************************/
+/*CSS Reset*/
+/***********************************************************************************************/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-backface-visibility: hidden;
+}
+
+/***********************************************************************************************/
 /*Bootstrap*/
 /***********************************************************************************************/
 //@import "bootstrap.less";
@@ -43,20 +102,10 @@ Contents
 .clearfix {
     *zoom: 1;
 }
-@media (max-width:768px) {
-    .visible-xs {
-        display: block;
-    }
-}
-@media (max-width:992px) {
-    .visible-xs {
-        display: none;
-    }
-}
 /***********************************************************************************************/
 /*Bootstrap Theme*/
 /***********************************************************************************************/
-@import "bootstrap-theme.less";
+//@import "bootstrap-theme.less";
 
 
 /***********************************************************************************************/
@@ -79,13 +128,16 @@ Contents
 /***********************************************************************************************/
 /*Global*/
 /***********************************************************************************************/
+html {
+    font-size: 62.5%;
+}
 html, body {
     overflow-x: hidden;
 }
 
 body {
-    font-size: 16px;
-    background: #DEE9EF;
+    font-size: 1.6rem;
+    background: #23232E;
 }
 
 /***********************************************************************************************/
@@ -94,20 +146,21 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
+    font-family:@mont;
+    font-weight:300;
+    line-height:100%; letter-spacing:-0.08rem;
+    color: @head-col1;
 }
 
 h1 {
     font-size: 4.2rem;
-    color: @head-col1;
 }
 
 h2 {
     font-size: 2.8rem;
-    color: @head-col1;
 }
 
 h3 {
-    font-family: @mont;
     font-size: 22px;
     color: @head-col2;
     font-weight: normal;
@@ -129,25 +182,51 @@ h3 {
 /*Header*/
 /***********************************************************************************************/
 
-.header {
-    background-color: #eff1f4;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
-    -moz-box-shadow:    0px 2px 2px 0px rgba(50, 50, 50, 0.23);
-    box-shadow:         0px 2px 2px 0px rgba(50, 50, 50, 0.23);
-    border-bottom: 1px solid #fff;
-    height: 60px;
-    border-bottom: 2px solid #fff;
-    background: #EFF1F4;
-}
-
-.nav-primary {
+.hamburger a {
     font-size: 4rem;
-    padding-top: 1rem;
+    line-height: 150%;
+    width: 59px;
+    text-align: center;
+    float: left;
+}
+.hamburger a:hover {
+    background: #D6DBE2;
+}
+header .logo span {
+    background: url(images/logo.png) no-repeat center;
+    width: 110px;
+    display: block;
+    margin: 0 0 0 32px;
+}
+.logo {
+    float: left;
+}
+header, header .logo span, .hamburger a {
+    height: 59px;
+}
+header {
+    height: 59px;
+    background: #EFF1F4;
+    border-bottom: 1px solid #FFF;
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+}
+#body-content {
+    background: #DEE9EF;
+    float: left;
+}
+#main-content {
+    padding: 28px;
+    margin: 59px 0 0 0;
+}
+li {
+    list-style: none;
+}
+.viewnav {
+    width: 80%;
 }
 
-.logo {
-    margin-top: 1rem;
-}
 .news-highlights {
     background: #DADADA;
     color: #777777;
@@ -166,55 +245,53 @@ h3 {
 /*Navigation*/
 /***********************************************************************************************/
 
-.list-group {
-    background-color: #23232e;
-}
-
-.list-group-item {
-    position: relative;
-    display: block;
-    padding: 10px 0px 15px 10px;
-    background-color: #23232e;
-    border-bottom: 1px solid #2d2d35;
-    color: #fff;
-    font-family: Gill Sans MT;
-    font-size: 19px;
-    font-style: normal;
-    line-height: 10px;
-}
-
-a.list-group-item:hover {
-    background-color: #3b2627;
-    color: #fff;
-    text-decoration: none;
-}
-
-a.list-group-item-searchbox {
-    background: #68686f;
-    position: relative;
-    display: block;
-    padding: 10px 0px 15px 15px;
-    border-bottom: 1px solid #2d2d35;
-    color: #fff;
-    font-family: Gill Sans MT;
-    font-size: 19px;
-    font-style: normal;
-    text-decoration: none;
-    line-height: 10px;
-}
-
-a.list-group-item active {
-    z-index: 2;
+.sidebar {
     color: #FFF;
-    background-color: #3b2627;
+    float: left;
+    width: 20%;
 }
-
-a.list-group-item.active:hover {
-    background-color: #fff;
+.sidebar li {
+    border-bottom: 1px solid #2D2D35;
+    line-height: 28px;
+    font-size: 19px;
 }
-
-a.list-group-item.active:focus {
-    
+.arrow{ font-size:small}
+.searchcount, .arrow {
+    color: #555555;
+    width: 28px;
+    display: block;
+    float: right;
+}
+.searchcount {
+    text-align: right;
+}
+.subnav {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.subnav li {
+    color: #B8B8B8;
+    font-size: 16px;
+}
+.subnav li:hover {
+    background: #3B2627;
+}
+.sidebar ul li span {
+    padding: 0 5px 0 0;
+}
+.sidebar ul li .notification {
+    color: #FF5926;
+    padding: 0 0 0 5px;
+}
+.subnavclick {
+    height: 28px;
+    float: right;
+}
+.subnavclick:hover {
+    background: #FC0;
+}
+.selected + .subnav[style] {
+    display: block!important;
 }
 
 /***********************************************************************************************/
@@ -232,50 +309,69 @@ a.list-group-item.active:focus {
 /*Product Catalog*/
 /***********************************************************************************************/
 
-.prom-image, .pop-image {
-    img {
-        height: 164px;
-        width: 164px;    
-        padding-top: 15px    
-    }
+.card h3 {
+    color: #393F4C;
+    font-size: 22px;
+    margin: 0;
+    line-height: 100%;
 }
-.prom-prod {
-    margin-bottom: 20px;
-    background: #fff;
+.cardwrapper {
+    margin: 0 -7px;
 }
-
-.prom-content {
-
-}
-
-.talk-to-us {
-    background: @col-light-grey;
-    padding: 8px;
-    font-size: 1.3rem;
-    color: @col-dark-grey;
-    a {
-        color: @col-dark-grey;
-    }
+.card {
+    background: #FFF;
+    width: 375px;
+    margin: 7px;
+    float: left;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
-.popular-product {
-    background: #fff;
-}
-.feat-prod {
-    margin: 0 0 20px 0;
-    background-color: #fff;
+.card .footer {
+    background: #F0F0F0;
+    line-height: 160%;
+    text-align: right;
+    text-transform: uppercase;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    margin: 0 0 8px 180px;
+    width: 187px;
+    padding: 0 9px 0 0;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
 }
 
-/***********************************************************************************************/
-/*Footer*/
-/***********************************************************************************************/
+.card .footer:hover {
+    background: #DBDBDB;
+}
 
-.footer {
-    background: #eff1f4;
-    border-top: 1px solid #fff;
-    -webkit-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
-    -moz-box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
-    box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.23);
+.speach {
+    margin: 0 3px 0 0;
+}
+
+.cover {
+    height: 164px;
+    width: 164px;
+    float: left;
+    background: #999;
+    margin: 8px;
+}
+.description {
+    line-height: 14px;
+    font-size: 13px;
+}
+.details {
+    float: left;
+    width: 179px;
+    margin: 8px 8px 8px 0px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
 }
 
 .ratings {
@@ -283,6 +379,23 @@ a.list-group-item.active:focus {
     div {
         display: inline-block;
     }
+}
+
+/***********************************************************************************************/
+/*Footer*/
+/***********************************************************************************************/
+
+footer {
+    background: #EFF1F4;
+    border-top: 1px solid #FFF;
+    height: 50px;
+}
+footer a {
+    text-decoration: none;
+    color: #5D5D5D;
+}
+footer div {
+    float: right;
 }
 
 
