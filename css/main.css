@@ -313,7 +313,7 @@ li {
 .sidebar li {
   border-bottom: 1px solid #2D2D35;
   line-height: 28px;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
 }
 .arrow {
   font-size: 2rem;
@@ -335,7 +335,7 @@ li {
 }
 .subnav li {
   color: #B8B8B8;
-  font-size: 16px;
+  font-size: 1.4rem;
 }
 .subnav li:hover {
   background: #3B2627;
@@ -358,6 +358,17 @@ li {
   display: block!important;
 }
 /***********************************************************************************************/
+/*Form elements*/
+/***********************************************************************************************/
+.search-box {
+  border: none;
+  background: #68686F;
+  padding: 9px 20px;
+  width: 100%;
+  font-size: 1.6rem;
+  margin: 0 0 15px 0;
+}
+/***********************************************************************************************/
 /*Main Content*/
 /***********************************************************************************************/
 .main-content {
@@ -376,6 +387,7 @@ li {
 /***********************************************************************************************/
 .cardwrapper {
   margin: 0 -7px;
+  max-width: 1170px;
 }
 .card {
   background: #FFF;
@@ -411,6 +423,34 @@ li {
 .card .talk:hover {
   background: #DBDBDB;
 }
+.half-card {
+  background: #FFF;
+  margin: 7px;
+  float: left;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.half-card h3 {
+  color: #393F4C;
+  margin: 0 0 0.5rem 0;
+  line-height: 100%;
+}
+.half-card .prod-img {
+  max-width: 150px;
+  height: 150px;
+}
+.half-card .details {
+  float: none;
+  padding: 8px;
+  width: 166px;
+  margin: 0;
+}
+.half-card .category {
+  margin: 0 0 0.5rem 0;
+  color: #666666;
+}
 .speach {
   margin: 0 3px 0 0;
 }
@@ -433,13 +473,13 @@ li {
   font-size: 1.2rem;
 }
 .ratings div {
-  display: inline-block;
+  display: block;
 }
 @media (min-width: 768px) {
   .card {
     width: 345px;
   }
-  .details {
+  .card .details {
     width: 160px;
     margin: 8px 0 8px 0;
   }
@@ -451,8 +491,18 @@ li {
   .card .talk {
     width: 190px;
   }
-  .details {
+  .card .details {
     width: 190px;
+  }
+  .half-card .prod-img {
+    max-width: 164px;
+    height: 164px;
+  }
+  .half-card .details {
+    float: none;
+    padding: 8px;
+    width: 180px;
+    margin: 0;
   }
 }
 /***********************************************************************************************/

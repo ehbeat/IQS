@@ -42,7 +42,7 @@
         <div class="sidebar">
             <div class="search"></div>
             <ul>
-                <li class="search"><input type="search"></li>
+                <li class="search"><input class="search-box" type="search" placeholder="Search"></li>
                 <li><a><span class="icon-left icon icon-user"></span>Contacts</a>
                     <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">224</span>
                     </div>
@@ -250,7 +250,7 @@
             <h2>Popular Products</h2>
 
             <div class="popular cardwrapper clearfix">
-                <div class="card">
+                <div class="half-card">
                     <div class="prod-img"></div>
 
                     <div class="details">
@@ -261,7 +261,59 @@
                         </div>
 
                         <div class="ratings">
-                            rating popularity
+                            <div class="rating"><span>Rating</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                            <div class="popularity"><span>Popularity</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="half-card">
+                    <div class="prod-img"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="ratings">
+                            <div class="rating"><span>Rating</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                            <div class="popularity"><span>Popularity</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="half-card">
+                    <div class="prod-img"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="ratings">
+                            <div class="rating"><span>Rating</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                            <div class="popularity"><span>Popularity</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="half-card">
+                    <div class="prod-img"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="ratings">
+                            <div class="rating"><span>Rating</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                            <div class="popularity"><span>Popularity</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
                         </div>
                     </div>
                 </div>
