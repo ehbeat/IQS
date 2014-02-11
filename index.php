@@ -59,16 +59,16 @@
             <header>
                 <div class="header clearfix">
                     <div class="row">
-                        <div id="nav-primary" class="col-md-1 col-xs-2" data-toggle="offcanvas">
-                            <span class="nav-primary text-center col-md-12 icon icon-list2"></span>
+                        <div id="nav-primary" class="col-md-1 col-sm-1 col-xs-1" data-toggle="offcanvas">
+                            <span class="nav-primary text-center icon icon-list2"></span>
                         </div>
-                        <div class="col-md-4 col-xs-6 logo">
+                        <div class="col-md-4 col-sm-6 col-xs-6 logo">
                             <img src="images/iqs-logo.png" alt="IQS Online" width="110" height="34">
                         </div>
-                        <div class="col-md-2 col-xs-2 pull-right">
+                        <div class="col-md-2 col-sm-2 col-xs-1 pull-right">
                             Nav
                         </div>
-                        <div class="col-md-2 col-xs-2 pull-right">
+                        <div class="col-md-2 col-sm-2 col-xs-1 pull-right">
                             Nav
                         </div>
                     </div>
@@ -81,18 +81,18 @@
             <section>
                 <div class="clearfix">
                     <div class="row main-content">
-                        <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-md-12">
                             <h1>Professional Indemnity</h1>
                             <p>Liability insurance that helps protect professional advice and service-providing individuals and companies!</p>
                             <h2>Promoted Products</h2>
 
-                            <div class="col-md-5 col-sm-6 col-xs-12 prom-prod">
+                            <div class="col-md-6 col-sm-5 col-xs-12 prom-prod">
 
                                 <div class="pull-left prom-image">
                                     <img src="" />
                                 </div>
 
-                                <div class="col-md-7 col-sm-6 col-xs-12 prom-content">
+                                <div class="col-md-7 col-sm-5 col-xs-12 prom-content">
                                     <h3>Commercial Crime</h3>
                                     <h5>Architects</h5>
                                     <div class="s-desc">
@@ -104,13 +104,13 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-5 col-sm-6 col-xs-12 col-md-offset-2 prom-prod">
+                            <div class="col-md-6 col-sm-5 col-xs-12 prom-prod">
 
                                 <div class="pull-left prom-image">
                                     <img src="" />
                                 </div>
 
-                                <div class="col-md-7 col-sm-6 col-xs-12 prom-content">
+                                <div class="col-md-7 col-sm-5 col-xs-12 prom-content">
                                     <h3>Commercial Crime</h3>
                                     <h5>Architects</h5>
                                     <div class="s-desc">
@@ -123,10 +123,11 @@
                             </div>
                         </div>
                     </div>
+
                         <div class="row ">
                             <div class="col-md-12">
                                 <h2>Popular Products</h2>
-                                <div class="col-md-2 popular-product">
+                                <div class="col-md-2 col-sm-2 popular-product">
                                     <div class="pull-left pop-image">
                                         <img src="" />
                                     </div>
@@ -141,7 +142,8 @@
                                         </div>                           
                                     </div>
                                 </div>
-                                <div class="col-md-2 col-md-offset-1 popular-product">
+
+                                <div class="col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-1 popular-product">
                                     <div class="pull-left pop-image">
                                         <img src="" />
                                     </div>
@@ -156,7 +158,8 @@
                                         </div>                                                                   
                                     </div>
                                 </div>
-                                <div class="col-md-2 col-md-offset-2 popular-product">
+
+                                <div class="col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-2 popular-product">
                                     <div class="pull-left pop-image">
                                         <img src="" />
                                     </div>
@@ -171,7 +174,8 @@
                                         </div>                                                                    
                                     </div>
                                 </div>
-                                <div class="col-md-2 col-md-offset-1 popular-product">
+
+                                <div class="col-md-2 col-sm-2 popular-product">
                                     <div class="pull-left pop-image">
                                         <img src="" />
                                     </div>
