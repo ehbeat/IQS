@@ -12,9 +12,7 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 
 $(document).ready(function () {
 
-    $(".entypo-menu").click(function () {
-		
-		
+    $("#offcanvas").click(function () {
 		$( "#body-content" ).toggleClass( "viewnav");
         $(".sidebar").toggle();
     });

@@ -38,120 +38,244 @@
     </head>
 
 <body>
-<nav class="sidebar">
-<div class="search"></div>
-  <ul>
-    <li><a><span class="entypo-user"></span>Contacts</a><div class="subnavclick"><span class="entypo-down-dir arrow"></span><span class="searchcount">224</span></div>
-      <ul id="contacts" class="subnav">
-        <li><a>Customers<span class="notification">(8)</span> <span class="arrow">&nbsp;</span><span class="searchcount">24</span></a></li>
-        <li><a>Insurers <span class="arrow">&nbsp;</span><span class="searchcount">37</span></a></li>
-        <li><a>Colleugues<span class="notification">(4)</span> <span class="arrow">&nbsp;</span><span class="searchcount">9</span></a></li>
-        <li><a>Service Providers <span class="arrow">&nbsp;</span><span class="searchcount">2</span></a></li>
-      </ul>
-    </li>
-  </ul>
-  <ul>
-    <li><a><span class="entypo-doc-text"></span>Quotes</a><div class="subnavclick"><span class="entypo-down-dir arrow"></span><span class="searchcount">224</span></div>
-      <ul id="quotes" class="subnav">
-        <li><a>Quotes Request</a></li>
-        <li><a>Quotes</a></li>
-        <li><a>History</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+    <nav>
+        <div class="sidebar">
+            <div class="search"></div>
+            <ul>
+                <li><a><span class="icon icon-user"></span>Contacts</a>
+                    <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">224</span>
+                    </div>
+                    <ul id="contacts" class="subnav">
+                        <li><a>Customers<span class="notification">(8)</span> <span class="icon icon-arrow-down4 arrow">&nbsp;</span><span class="searchcount">24</span></a>
+                        </li>
+                        <li><a>Insurers <span class="icon icon-arrow-down4 arrow">&nbsp;</span><span class="searchcount">37</span></a>
+                        </li>
+                        <li><a>Colleugues<span class="notification">(4)</span> <span class="icon icon-arrow-down4 arrow">&nbsp;</span><span class="searchcount">9</span></a>
+                        </li>
+                        <li><a>Service Providers <span class="icon icon-arrow-down4 arrow">&nbsp;</span><span class="searchcount">2</span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a><span class="icon icon-text"></span>Quotes</a>
+                    <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">224</span>
+                    </div>
+                    <ul id="quotes" class="subnav">
+                        <li><a>Quotes Request</a>
+                        </li>
+                        <li><a>Quotes</a>
+                        </li>
+                        <li><a>History</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
 
-<div id="body-content" class="viewnav">
-<header>
-  <div  class="hamburger">
-      <a class="entypo-menu icon icon-list2">
-    </a>
-  </div>
+   <div class="viewnav" id="body-content">
+        <header>
+            <div class="header">
+                <div class="hamburger">
+                    <a id="offcanvas" class="icon icon-list2"></a>
+                </div>
 
-  <div class="logo"><a><span></span></a></div>
-  <div class="profile"></div>
-  <div class="notifications">
-      <a>
-        <div class="sprite"></div>
-      </a>
-  </div>
-</header>
+                <div class="logo">
+                    <img src="images/iqs-logo.png" alt="IQS Online" />
+                </div>
 
-<div id="main-content">
-<h1>Professional Indemnity</h1>
-<p>Liability insurance that helps protect professional advice and service-providing individuals and companies!</p>
-<h2>Promoted Products</h2>
-<div class="promoted cardwrapper clearfix">
-  <div class="card clearfix">
-    <div class="cover"></div>
-    <div class="details">
-      <h3><a class="title">Commercial Crime</a></h3>
-      <div class="category">Architects</div>
-      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
+                <div class="profile"></div>
+
+                <div class="notifications">
+                    <div class="sprite"></div>
+                </div>
+            </div>
+        <div class="news-highlights">
+            <p>Feb 06 2014 14:01 The majority of South Africa’s new multimillionaires - those with more than R300m - earned their... <a href="#">read more</a></p>
+        </div>
+        </header>
+
+        <div class="main-content">
+            <h1>Professional Indemnity</h1>
+
+            <p>Liability insurance that helps protect professional advice and
+            service-providing individuals and companies!</p>
+
+            <h2>Promoted Products</h2>
+
+            <div class="promoted cardwrapper clearfix">
+                <div class="card clearfix">
+                    <div class="cover"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nunc vitae rhoncus justo. Aliquam luctus leo
+                            vel.
+                        </div>
+                    </div>
+
+                    <div class="talk">
+                        <span class="icon icon-bubble"></span>
+                        talk to us
+                    </div>
+                </div>
+
+                <div class="card clearfix">
+                    <div class="cover"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nunc vitae rhoncus justo. Aliquam luctus leo
+                            vel.
+                        </div>
+                    </div>
+
+                    <div class="talk">
+                        <span class="icon icon-bubble"></span>
+                        talk to us
+                    </div>
+                </div>
+
+                <div class="card clearfix">
+                    <div class="cover"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nunc vitae rhoncus justo. Aliquam luctus leo
+                            vel.
+                        </div>
+                    </div>
+
+                    <div class="talk">
+                        <span class="icon icon-bubble"></span>
+                        talk to us
+                    </div>
+                </div>
+
+                <div class="card clearfix">
+                    <div class="cover"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nunc vitae rhoncus justo. Aliquam luctus leo
+                            vel.
+                        </div>
+                    </div>
+
+                    <div class="talk">
+                        <span class="icon icon-bubble"></span>
+                        talk to us
+                    </div>
+                </div>
+
+                <div class="card clearfix">
+                    <div class="cover"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nunc vitae rhoncus justo. Aliquam luctus leo
+                            vel.
+                        </div>
+                    </div>
+
+                    <div class="talk">
+                        <span class="icon icon-bubble"></span>
+                        talk to us
+                    </div>
+                </div>
+
+                <div class="card clearfix">
+                    <div class="cover"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nunc vitae rhoncus justo. Aliquam luctus leo
+                            vel.
+                        </div>
+                    </div>
+
+                    <div class="talk">
+                        <span class="icon icon-bubble"></span>
+                        talk to us
+                    </div>
+                </div>
+            </div>
+
+            <h2>Popular Products</h2>
+
+            <div class="popular cardwrapper clearfix">
+                <div class="card">
+                    <div class="cover"></div>
+
+                    <div class="details">
+                        <h3><a class="title">Commercial Crime</a></h3>
+
+                        <div class="category">
+                            Architects
+                        </div>
+
+                        <div class="ratings">
+                            rating popularity
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <a href="#">Privacy &amp; Terms</a> | <a href="#">Settings</a>
+                | <a href="#">Advertising</a> | <a href="#">About</a>
+
+                <div class="smalllogo"></div>
+            </div>
+        </footer>
     </div>
-    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
-  </div>
-  <div class="card clearfix">
-    <div class="cover"></div>
-    <div class="details">
-      <h3><a class="title">Commercial Crime</a></h3>
-      <div class="category">Architects</div>
-      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
-    </div>
-    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
-  </div>
-  <div class="card clearfix">
-    <div class="cover"></div>
-    <div class="details">
-      <h3><a class="title">Commercial Crime</a></h3>
-      <div class="category">Architects</div>
-      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
-    </div>
-    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
-  </div>
-  <div class="card clearfix">
-    <div class="cover"></div>
-    <div class="details">
-      <h3><a class="title">Commercial Crime</a></h3>
-      <div class="category">Architects</div>
-      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
-    </div>
-    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
-  </div>
-  <div class="card clearfix">
-    <div class="cover"></div>
-    <div class="details">
-      <h3><a class="title">Commercial Crime</a></h3>
-      <div class="category">Architects</div>
-      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
-    </div>
-    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
-  </div>
-  <div class="card clearfix">
-    <div class="cover"></div>
-    <div class="details">
-      <h3><a class="title">Commercial Crime</a></h3>
-      <div class="category">Architects</div>
-      <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae rhoncus justo. Aliquam luctus leo vel.</div> 
-    </div>
-    <div class="footer"><span class="fontawesome-comment speach"></span>talk to us</div>
-  </div>	
-</div>
-<h2>Popular Products</h2>
-<div class="popular cardwrapper clearfix">
-  <div class="card">
-    <div class="cover"></div>
-    <div class="details">
-      <h3><a class="title">Commercial Crime</a></h3>
-      <div class="category">Architects</div>
-      <div class="footer">rating popularity</div>
-    </div>
-  </div>
-</div>
-</div>
-<footer><div><a href="#">Privacy & Terms</a> | <a href="#">Settings</a> | <a href="#">Advertising</a> | <a href="#">About</a><div class="smalllogo"></div></div></footer>
-</div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
     <script src="js/functions.min.js" defer></script>
     </body>

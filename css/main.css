@@ -202,6 +202,7 @@ body {
 body {
   font-size: 1.6rem;
   background: #23232E;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 /***********************************************************************************************/
 /*Typography*/
@@ -218,6 +219,7 @@ h6 {
   line-height: 100%;
   letter-spacing: -0.08rem;
   color: #664c00;
+  margin: 0 0 1.5rem 0;
 }
 h1 {
   font-size: 4.2rem;
@@ -226,47 +228,24 @@ h2 {
   font-size: 2.8rem;
 }
 h3 {
-  font-size: 22px;
+  font-size: 2.2rem;
   color: #393f4c;
   font-weight: normal;
+}
+p {
+  margin: 0 0 1rem 0;
 }
 /***********************************************************************************************/
 /*Iconography*/
 /***********************************************************************************************/
-.icon-left {
-  margin-right: 10px;
-}
-.icon-right {
-  margin-left: 10px;
-}
 /***********************************************************************************************/
 /*Header*/
 /***********************************************************************************************/
-.hamburger a {
-  font-size: 4rem;
-  line-height: 150%;
-  width: 59px;
-  text-align: center;
-  float: left;
-}
-.hamburger a:hover {
-  background: #D6DBE2;
-}
-header .logo span {
-  background: url(images/logo.png) no-repeat center;
-  width: 110px;
-  display: block;
-  margin: 0 0 0 32px;
-}
-.logo {
-  float: left;
-}
-header,
-header .logo span,
+.header,
 .hamburger a {
   height: 59px;
 }
-header {
+.header {
   height: 59px;
   background: #EFF1F4;
   border-bottom: 1px solid #FFF;
@@ -274,25 +253,40 @@ header {
   width: 100%;
   z-index: 2000;
 }
-#body-content {
-  background: #DEE9EF;
+.hamburger a {
+  font-size: 4rem;
+  line-height: 150%;
+  width: 59px;
+  text-align: center;
+  float: left;
+  border-right: 1px solid #fff;
+}
+.hamburger a:hover {
+  background: #D6DBE2;
+}
+.logo {
+  width: 110px;
+  display: block;
+  margin: 10px 0 0 32px;
   float: left;
 }
-#main-content {
-  padding: 28px;
-  margin: 59px 0 0 0;
+.viewnav {
+  background: #DEE9EF;
+  float: left;
+  width: 80%;
 }
 li {
   list-style: none;
-}
-.viewnav {
-  width: 80%;
 }
 .news-highlights {
   background: #DADADA;
   color: #777777;
   font-size: 1.5rem;
-  padding: 8px 15px;
+  padding: 8px 30px;
+  height: 31px;
+  position: absolute;
+  top: 59px;
+  width: 100%;
 }
 .news-highlights a {
   color: #777777;
@@ -315,7 +309,8 @@ li {
   font-size: 19px;
 }
 .arrow {
-  font-size: small;
+  font-size: 2rem;
+  line-height: 150%;
 }
 .searchcount,
 .arrow {
@@ -338,12 +333,12 @@ li {
 .subnav li:hover {
   background: #3B2627;
 }
-.sidebar ul li span {
-  padding: 0 5px 0 0;
-}
-.sidebar ul li .notification {
+.subnav li .notification {
   color: #FF5926;
   padding: 0 0 0 5px;
+}
+.subnav li span {
+  padding: 0 5px 0 0;
 }
 .subnavclick {
   height: 28px;
@@ -359,26 +354,40 @@ li {
 /*Main Content*/
 /***********************************************************************************************/
 .main-content {
-  margin-top: 30px;
+  padding: 28px;
+  margin: 90px 0 0 0;
 }
 .main-content h1 ~ h2 {
   margin-top: 35px;
 }
+#body-content {
+  background: #DEE9EF;
+  float: left;
+}
 /***********************************************************************************************/
 /*Product Catalog*/
 /***********************************************************************************************/
-.card h3 {
-  color: #393F4C;
-  font-size: 22px;
-  margin: 0;
-  line-height: 100%;
+@media (min-width: 768px) {
+  .card {
+    width: 345px;
+  }
+  .details {
+    width: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .card {
+    width: 375px;
+  }
+  .details {
+    width: 150px;
+  }
 }
 .cardwrapper {
   margin: 0 -7px;
 }
 .card {
   background: #FFF;
-  width: 375px;
   margin: 7px;
   float: left;
   position: relative;
@@ -386,7 +395,16 @@ li {
   -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
 }
-.card .footer {
+.card h3 {
+  color: #393F4C;
+  margin: 0 0 0.5rem 0;
+  line-height: 100%;
+}
+.card .category {
+  margin: 0 0 0.5rem 0;
+  color: #666666;
+}
+.card .talk {
   background: #F0F0F0;
   line-height: 160%;
   text-align: right;
@@ -396,19 +414,10 @@ li {
   bottom: 0;
   display: block;
   margin: 0 0 8px 180px;
-  width: 187px;
+  width: 160px;
   padding: 0 9px 0 0;
-  -webkit-box-sizing: border-box;
-  /* Safari/Chrome, other WebKit */
-
-  -moz-box-sizing: border-box;
-  /* Firefox, other Gecko */
-
-  box-sizing: border-box;
-  /* Opera/IE 8+ */
-
 }
-.card .footer:hover {
+.card .talk:hover {
   background: #DBDBDB;
 }
 .speach {
@@ -427,17 +436,7 @@ li {
 }
 .details {
   float: left;
-  width: 179px;
   margin: 8px 8px 8px 0px;
-  -webkit-box-sizing: border-box;
-  /* Safari/Chrome, other WebKit */
-
-  -moz-box-sizing: border-box;
-  /* Firefox, other Gecko */
-
-  box-sizing: border-box;
-  /* Opera/IE 8+ */
-
 }
 .ratings {
   font-size: 1.2rem;
@@ -459,44 +458,6 @@ footer a {
 }
 footer div {
   float: right;
-}
-/***********************************************************************************************/
-/*Off canvas*/
-/***********************************************************************************************/
-@media screen and (max-width: 767px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-  }
-  .row-offcanvas-right .sidebar-offcanvas {
-    right: -50%;
-    /* 6 columns */
-  
-  }
-  .row-offcanvas-left .sidebar-offcanvas {
-    left: -50%;
-    /* 6 columns */
-  
-  }
-  .row-offcanvas-right.active {
-    right: 50%;
-    /* 6 columns */
-  
-  }
-  .row-offcanvas-left.active {
-    left: 50%;
-    /* 6 columns */
-  
-  }
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 50%;
-    /* 6 columns */
-  
-  }
 }
 /***********************************************************************************************/
 /*IE 10 Fix for mobiles*/
