@@ -176,6 +176,13 @@ p {
 /*Iconography*/
 /***********************************************************************************************/
 
+.icon-left {
+    margin-right: 5px;
+}
+
+.icon-right {
+    margin-left: 5px;
+}
 
 /***********************************************************************************************/
 /*Header*/
@@ -245,10 +252,11 @@ li {
     color: #FFF;
     float: left;
     width: 20%;
+    padding: 15px 10px 15px 15px;
     li {
         border-bottom: 1px solid #2D2D35;
         line-height: 28px;
-        font-size: 19px;
+        font-size: 1.9rem;
     }    
 }
 
@@ -316,22 +324,6 @@ float: left;
 /*Product Catalog*/
 /***********************************************************************************************/
 
-@media (min-width:768px) { 
-.card {
-    width: 345px;
-}
-.details {
-    width: 150px;
-}
-}
-@media (min-width:992px) { 
-.card {
-    width: 375px;
-}
-.details {
-    width: 150px;
-}
-}
 .cardwrapper {
     margin: 0 -7px;
 }
@@ -359,11 +351,11 @@ float: left;
         text-transform: uppercase;
         height: 25px;
         position: absolute;
-        bottom: 0;
+        bottom: 8px;
         display: block;
-        margin: 0 0 8px 180px;
         width: 160px;
         padding: 0 9px 0 0;
+        right: 8px;
         &:hover {
             background: #DBDBDB;
         }
@@ -374,7 +366,7 @@ float: left;
     margin: 0 3px 0 0;
 }
 
-.cover {
+.prod-img {
     height: 164px;
     width: 164px;
     float: left;
@@ -397,21 +389,52 @@ float: left;
     }
 }
 
+@media (min-width:768px) { 
+.card {
+    width: 345px;
+}
+.details {
+    width: 160px;
+    margin: 8px 0 8px 0
+}
+}
+
+@media (min-width:992px) { 
+.card {
+    width: 375px;
+    .talk {
+        width: 190px;
+    }
+}
+.details {
+    width: 190px;
+}
+}
+
 /***********************************************************************************************/
 /*Footer*/
 /***********************************************************************************************/
 
-footer {
+.footer {
     background: #EFF1F4;
     border-top: 1px solid #FFF;
     height: 50px;
+    width: 100%;
+    text-align: right;
+    font-size: 1.2rem;
+    padding: 13px;
+    line-height: 190%;
+    a {
+        text-decoration: none;
+        color: #5D5D5D;
+    }
+    div {
+        float: right;
+    }
 }
-footer a {
-    text-decoration: none;
-    color: #5D5D5D;
-}
-footer div {
-    float: right;
+
+.footer-logo {
+    margin: 0 0 0 10px;
 }
 
 /***********************************************************************************************/

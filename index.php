@@ -42,7 +42,8 @@
         <div class="sidebar">
             <div class="search"></div>
             <ul>
-                <li><a><span class="icon icon-user"></span>Contacts</a>
+                <li class="search"><input type="search"></li>
+                <li><a><span class="icon-left icon icon-user"></span>Contacts</a>
                     <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">224</span>
                     </div>
                     <ul id="contacts" class="subnav">
@@ -59,7 +60,7 @@
             </ul>
 
             <ul>
-                <li><a><span class="icon icon-text"></span>Quotes</a>
+                <li><a><span class="icon-left icon icon-text"></span>Quotes</a>
                     <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">224</span>
                     </div>
                     <ul id="quotes" class="subnav">
@@ -108,7 +109,7 @@
 
             <div class="promoted cardwrapper clearfix">
                 <div class="card clearfix">
-                    <div class="cover"></div>
+                    <div class="prod-img"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -131,7 +132,7 @@
                 </div>
 
                 <div class="card clearfix">
-                    <div class="cover"></div>
+                    <div class="prod-img"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -154,7 +155,7 @@
                 </div>
 
                 <div class="card clearfix">
-                    <div class="cover"></div>
+                    <div class="prod-img"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -177,7 +178,7 @@
                 </div>
 
                 <div class="card clearfix">
-                    <div class="cover"></div>
+                    <div class="prod-img"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -200,7 +201,7 @@
                 </div>
 
                 <div class="card clearfix">
-                    <div class="cover"></div>
+                    <div class="prod-img"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -223,7 +224,7 @@
                 </div>
 
                 <div class="card clearfix">
-                    <div class="cover"></div>
+                    <div class="prod-img"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -250,7 +251,7 @@
 
             <div class="popular cardwrapper clearfix">
                 <div class="card">
-                    <div class="cover"></div>
+                    <div class="prod-img"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -268,11 +269,11 @@
         </div>
 
         <footer>
-            <div>
-                <a href="#">Privacy &amp; Terms</a> | <a href="#">Settings</a>
-                | <a href="#">Advertising</a> | <a href="#">About</a>
-
-                <div class="smalllogo"></div>
+            <div class="footer">
+                <div>
+                    <div class="footer-logo"><img src="images/iqs-footer-logo.png" alt="IQS Online" width="74" height="24"></div>
+                    <div><a href="#">Privacy &amp; Terms</a> | <a href="#">Settings</a> | <a href="#">Advertising</a> | <a href="#">About</a></div>
+                </div>
             </div>
         </footer>
     </div>
