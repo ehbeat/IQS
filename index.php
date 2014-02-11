@@ -42,18 +42,47 @@
         <div class="sidebar">
             <div class="search"></div>
             <ul>
-                <li class="search"><input class="search-box" type="search" placeholder="Search"></li>
-                <li><a><span class="icon-left icon icon-user"></span>Contacts</a>
-                    <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">224</span>
+                <li class="search">
+                    <input class="search-box" type="search" placeholder="Search">
+                </li>
+
+                <li>
+                    <a>
+                        <span class="icon-left icon icon-user"></span>
+                        Contacts
+                    </a>
+
+                    <div class="subnavclick">
+                        <span class="icon icon-arrow-down4 arrow"></span>
+                        <span class="searchcount">224</span>
                     </div>
+
                     <ul id="contacts" class="subnav">
-                        <li><a>Customers<span class="notification">(8)</span> <span class="icon icon-arrow-down4 arrow">&nbsp;</span><span class="searchcount">24</span></a>
+                        <li>
+                            <a>Customers
+                                <span class="notification">(8)</span> 
+                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="searchcount">24</span>
+                            </a>
                         </li>
-                        <li><a>Insurers <span class="icon icon-arrow-down4 arrow">&nbsp;</span><span class="searchcount">37</span></a>
+                        <li>
+                            <a>Insurers 
+                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="searchcount">37</span>
+                            </a>
                         </li>
-                        <li><a>Colleugues<span class="notification">(4)</span> <span class="icon icon-arrow-down4 arrow">&nbsp;</span><span class="searchcount">9</span></a>
+                        <li>
+                            <a>Colleugues
+                                <span class="notification">(4)</span> 
+                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="searchcount">9</span>
+                            </a>
                         </li>
-                        <li><a>Service Providers <span class="icon icon-arrow-down4 arrow">&nbsp;</span><span class="searchcount">2</span></a>
+                        <li>
+                            <a>Service Providers 
+                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="searchcount">2</span>
+                            </a>
                         </li>
                     </ul>
                 </li>
@@ -88,7 +117,16 @@
                     <img src="images/iqs-logo.png" alt="IQS Online" />
                 </div>
 
-                <div class="profile"></div>
+                <div class="nav-profile">
+                    <div class="uer-rating">
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star"></span>
+                    </div>
+                    <img class="user-avatar" src="images/user-avatar.png" alt="User Name" width="32" height="32" />
+                </div>
 
                 <div class="notifications">
                     <div class="sprite"></div>
@@ -261,8 +299,22 @@
                         </div>
 
                         <div class="ratings">
-                            <div class="rating"><span>Rating</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
-                            <div class="popularity"><span>Popularity</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                            <div class="rating">
+                                <span>Rating</span>
+                                <span class="icon-right icon icon-star">
+                                </span><span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                            </div>
+                            <div class="popularity">
+                                <span>Popularity</span>
+                                <span class="icon-right icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -278,8 +330,22 @@
                         </div>
 
                         <div class="ratings">
-                            <div class="rating"><span>Rating</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
-                            <div class="popularity"><span>Popularity</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                            <div class="rating">
+                                <span>Rating</span>
+                                <span class="icon-right icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                            </div>
+                            <div class="popularity">
+                                <span>Popularity</span>
+                                <span class="icon-right icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -295,8 +361,22 @@
                         </div>
 
                         <div class="ratings">
-                            <div class="rating"><span>Rating</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
-                            <div class="popularity"><span>Popularity</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                            <div class="rating">
+                                <span>Rating</span>
+                                <span class="icon-right icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                            </div>
+                            <div class="popularity">
+                                <span>Popularity</span>
+                                <span class="icon-right icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -312,8 +392,22 @@
                         </div>
 
                         <div class="ratings">
-                            <div class="rating"><span>Rating</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
-                            <div class="popularity"><span>Popularity</span><span class="icon-right icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span><span class="icon icon-star"></span></div>
+                            <div class="rating">
+                                <span>Rating</span>
+                                <span class="icon-right icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                            </div>
+                            <div class="popularity">
+                                <span>Popularity</span>
+                                <span class="icon-right icon icon-star">
+                                </span><span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                                <span class="icon icon-star"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
