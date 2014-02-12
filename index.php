@@ -296,17 +296,17 @@
                         <div class="ratings">
                             <div class="rating">
                                 <span>Rating</span>
-                                <span class="icon-right icon icon-star">
-                                </span><span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star">
+                                </span><span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
                             <div class="popularity">
                                 <span>Popularity</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
@@ -327,16 +327,16 @@
                         <div class="ratings">
                             <div class="rating">
                                 <span>Rating</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
                             <div class="popularity">
                                 <span>Popularity</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
@@ -358,17 +358,17 @@
                         <div class="ratings">
                             <div class="rating">
                                 <span>Rating</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                             </div>
                             <div class="popularity">
                                 <span>Popularity</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
@@ -389,16 +389,16 @@
                         <div class="ratings">
                             <div class="rating">
                                 <span>Rating</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
                             <div class="popularity">
                                 <span>Popularity</span>
-                                <span class="icon-right icon icon-star">
-                                </span><span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
