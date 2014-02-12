@@ -283,6 +283,15 @@ p {
 }
 .nav-profile {
   float: right;
+  margin: 13px 20px 0 0;
+}
+.nav-profile .user-rating,
+.nav-profile .user-name {
+  float: left;
+  line-height: 200%;
+}
+.nav-profile .user-avatar {
+  display: block;
 }
 .news-highlights {
   background: #DADADA;
@@ -316,7 +325,7 @@ p {
 }
 .arrow {
   font-size: 2rem;
-  line-height: 150%;
+  line-height: 150% !important;
 }
 .searchcount,
 .arrow {

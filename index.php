@@ -118,13 +118,14 @@
                 </div>
 
                 <div class="nav-profile">
-                    <div class="uer-rating">
+                    <div class="user-rating">
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
-                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star icon-left"></span>
                     </div>
+                    <div class="user-name">Joel<span class="icon icon-arrow-down4 arrow"></span></div>
                     <img class="user-avatar" src="images/user-avatar.png" alt="User Name" width="32" height="32" />
                 </div>
 
