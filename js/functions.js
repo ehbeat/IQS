@@ -20,11 +20,11 @@ $(document).ready(function ()
     });
 
     var subNavs = $('.subnav');
-    subNavs.hide();
+    //subNavs.hide();
 
     $('.subnavclick').click(function ()
     {
-        subNavs.hide();
+        $(this).next(subNavs).slideToggle('slow');
 
         var navitem = $(this).attr('id'),
             id = $(this).attr('class'),

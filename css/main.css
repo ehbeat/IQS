@@ -325,7 +325,7 @@ p {
 }
 .arrow {
   font-size: 2rem;
-  line-height: 150% !important;
+  line-height: 149% !important;
 }
 .searchcount,
 .arrow {
@@ -340,6 +340,7 @@ p {
 .subnav {
   margin: 0;
   padding: 0 0 0 20px;
+  display: none;
 }
 .subnav li {
   color: #B8B8B8;
