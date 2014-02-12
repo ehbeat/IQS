@@ -39,7 +39,7 @@
 
 <body>
     <nav>
-        <div class="sidebar">
+        <div id="off-nav" class="sidebar">
             <div class="search"></div>
             <ul>
                 <li class="search">

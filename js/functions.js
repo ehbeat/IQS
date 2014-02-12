@@ -10,18 +10,21 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 }
 
 
-$(document).ready(function () {
+$(document).ready(function ()
+{
 
-    $("#offcanvas").click(function () {
-		$( "[data-toggle=offcanvas]" ).toggleClass( "width80 width100");
+    $("#offcanvas").click(function ()
+    {
+        $("[data-toggle=offcanvas]").toggleClass("width80 width100");
         $(".sidebar").toggle();
     });
-	
-    var $subNavs = $('.subnav');
-    $subNavs.hide();
 
-    $('.subnavclick').click(function () {
-        $subNavs.hide();
+    var subNavs = $('.subnav');
+    subNavs.hide();
+
+    $('.subnavclick').click(function ()
+    {
+        subNavs.hide();
 
         var navitem = $(this).attr('id'),
             id = $(this).attr('class'),
@@ -31,4 +34,20 @@ $(document).ready(function () {
         $('#' + id).toggle();
         return false;
     });
+
+    /*$('[data-toggle=offcanvastest]').click(function ()
+    {
+        $('.row-offcanvas').toggleClass('active');
+    });
+
+    if ($(document.outerWidth < 767))
+    {
+        $('#body-content').addClass("row-offcanvas row-offcanvas-left");
+        $('off-nav').toggleClass('sidebar sidebar-offcanvas');
+    } else
+    {
+        $('#body-content').removeClass("row-offcanvas row-offcanvas-left");
+        $('off-nav').toggleClass('sidebar sidebar-offcanvas');
+    };*/
+
 });
