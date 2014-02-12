@@ -179,7 +179,12 @@
                     <img src="images/iqs-logo.png" alt="IQS Online" />
                 </div>
 
-                <div class="nav-profile">
+                <div class="notifications pull-right">
+                    <span class="noti-count">1</span>
+                    <div class="sprite notification"></div>
+                </div>
+
+                <div class="nav-profile pull-right">
                     <div class="user-rating">
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
@@ -189,10 +194,6 @@
                     </div>
                     <div class="user-name">Joel<span class="icon icon-arrow-down4 arrow"></span></div>
                     <img class="user-avatar" src="images/user-avatar.png" alt="User Name" width="32" height="32" />
-                </div>
-
-                <div class="notifications">
-                    <div class="sprite"></div>
                 </div>
             </div>
         <div class="width100 news-highlights">
