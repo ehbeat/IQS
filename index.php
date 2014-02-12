@@ -185,7 +185,7 @@
                 </div>
 
                 <div class="nav-profile pull-right">
-                    <div class="user-rating">
+                    <div class="user-rating pull-left">
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
@@ -471,16 +471,17 @@
                 </div>
             </div>
         </div>
-
+    </div>
         <footer>
-            <div class="footer">
-                <div>
-                    <div class="footer-logo"><img src="images/iqs-footer-logo.png" alt="IQS Online" width="74" height="24"></div>
-                    <div><a href="#">Privacy &amp; Terms</a> | <a href="#">Settings</a> | <a href="#">Advertising</a> | <a href="#">About</a></div>
+            <div class="footer-wrapper pull-right width80" data-toggle="offcanvas">
+                <div class="footer">
+                    <div>
+                        <div class="footer-logo"><img src="images/iqs-footer-logo.png" alt="IQS Online" width="74" height="24"></div>
+                        <div><a href="#">Privacy &amp; Terms</a> | <a href="#">Settings</a> | <a href="#">Advertising</a> | <a href="#">About</a></div>
+                    </div>
                 </div>
             </div>
         </footer>
-    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
     <script src="js/functions.min.js" defer></script>
     </body>

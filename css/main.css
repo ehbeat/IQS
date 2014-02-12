@@ -198,6 +198,7 @@ html {
 html,
 body {
   overflow-x: hidden;
+  height: 100%;
 }
 body {
   font-size: 1.6rem;
@@ -212,6 +213,9 @@ body {
 }
 .sprite {
   background-image: url(../images/sprite.png);
+}
+.bg-white {
+  background: #fff !important;
 }
 /***********************************************************************************************/
 /*Typography*/
@@ -243,15 +247,6 @@ h3 {
 }
 p {
   margin: 0 0 1rem 0;
-}
-/***********************************************************************************************/
-/*Iconography*/
-/***********************************************************************************************/
-.icon-left {
-  margin-right: 5px;
-}
-.icon-right {
-  margin-left: 5px;
 }
 /***********************************************************************************************/
 /*Header*/
@@ -287,13 +282,15 @@ p {
 .nav-profile {
   margin: 13px 20px 0 0;
 }
-.nav-profile .user-rating,
 .nav-profile .user-name {
   float: left;
   line-height: 200%;
 }
+.nav-profile .user-rating {
+  display: none;
+}
 .nav-profile .user-avatar {
-  display: block;
+  display: none;
 }
 .news-highlights {
   background: #DADADA;
@@ -340,6 +337,21 @@ p {
   text-align: center;
   font-size: 1rem;
   line-height: 130%;
+}
+.noti-quote {
+  font-size: 2.5rem;
+  padding: 2rem;
+  border-left: 1px solid #fff;
+  height: 59px;
+}
+@media (min-width: 768px) {
+  .nav-profile .user-rating {
+    display: block;
+    line-height: 200%;
+  }
+  .nav-profile .user-avatar {
+    display: block;
+  }
 }
 /***********************************************************************************************/
 /*Navigation*/
@@ -399,6 +411,47 @@ p {
 .selected + .subnav[style] {
   display: block!important;
 }
+.top-nav,
+.bottom-nav {
+  height: 45px;
+  background: #E7E7E7;
+  color: #393F4D;
+  font-size: 1.3rem;
+  position: relative;
+  top: 59px;
+  font-weight: bold;
+}
+.top-nav a,
+.bottom-nav a {
+  color: #393F4D;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+}
+.top-nav li,
+.bottom-nav li {
+  float: left;
+}
+.top-nav li a:hover,
+.bottom-nav li a:hover,
+.top-nav li.active,
+.bottom-nav li.active {
+  background: #DADADA;
+}
+.top-nav .quote-request,
+.bottom-nav .quote-request {
+  margin: 8px 12px 0 0;
+}
+.bottom-nav {
+  top: 0;
+}
+.bottom-nav ul {
+  text-align: center;
+}
+.bottom-nav li {
+  display: inline-block;
+  float: none;
+}
 /*Off canvas test*/
 .row-offcanvas {
   position: relative;
@@ -448,6 +501,25 @@ p {
   background-repeat: no-repeat;
   background-position: 98% 5px;
 }
+/*Buttons*/
+button,
+.button,
+[type="button"] {
+  cursor: pointer;
+}
+.quote-request {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #008C23;
+  border: 1px solid #134606;
+  color: #fff;
+  padding: 5px 9px;
+  font-weight: bold;
+}
 /***********************************************************************************************/
 /*Main Content*/
 /***********************************************************************************************/
@@ -461,6 +533,28 @@ p {
 .body-content {
   background: #DEE9EF;
   float: left;
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+.body-content:after {
+  content: "";
+  display: block;
+  height: 50px;
+}
+.has-bottom-nav .body-content {
+  margin-bottom: -95px;
+}
+/*Company Page*/
+.company-info h2 {
+  color: #393F4C;
+  text-align: center;
+  margin: 2rem 0 2.4rem 0;
+}
+.company-info p {
+  line-height: 200%;
+}
+.com-logo {
+  text-align: center;
 }
 /***********************************************************************************************/
 /*Product Catalog*/
@@ -2883,4 +2977,10 @@ p {
 }
 .icon-IcoMoon:before {
   content: "\e8de";
+}
+.icon-left {
+  margin-right: 5px;
+}
+.icon-right {
+  margin-left: 5px;
 }

@@ -142,6 +142,7 @@ html {
 }
 html, body {
     overflow-x: hidden;
+    height: 100%;
 }
 
 body {
@@ -160,6 +161,10 @@ body {
 
 .sprite {
     background-image: url(../images/sprite.png);
+}
+
+.bg-white {
+    background: #fff !important;
 }
 
 /***********************************************************************************************/
@@ -193,17 +198,7 @@ p {
     margin: 0 0 1rem 0;
 }
 
-/***********************************************************************************************/
-/*Iconography*/
-/***********************************************************************************************/
 
-.icon-left {
-    margin-right: 5px;
-}
-
-.icon-right {
-    margin-left: 5px;
-}
 
 /***********************************************************************************************/
 /*Header*/
@@ -240,12 +235,15 @@ p {
 
 .nav-profile {
     margin: 13px 20px 0 0;
-    .user-rating, .user-name {
+    .user-name {
         float: left;
         line-height: 200%;
     }
+    .user-rating {
+        display: none;
+    }
     .user-avatar {
-        display: block;
+        display: none;
     }
 }
 
@@ -292,6 +290,25 @@ p {
     text-align: center;
     font-size: 1rem;
     line-height: 130%;
+}
+
+.noti-quote {
+    font-size: 2.5rem;
+    padding: 2rem;
+    border-left: 1px solid #fff;
+    height: 59px;
+}
+
+@media (min-width:768px) {
+.nav-profile {
+    .user-rating {
+        display: block;
+        line-height: 200%;
+    }
+    .user-avatar {
+        display: block;
+    }
+}
 }
 
 /***********************************************************************************************/
@@ -355,6 +372,42 @@ p {
     display: block!important;
 }
 
+.top-nav, .bottom-nav {
+    height: 45px;
+    background: #E7E7E7;
+    color: #393F4D;
+    font-size: 1.3rem;
+    position: relative;
+    top: 59px;
+    font-weight: bold;
+    a {
+        color: #393F4D;
+        text-decoration: none;
+        padding: 16px;
+        display: block;
+    }
+    li {
+        float: left;
+        a:hover, &.active {
+            background: #DADADA;
+        }        
+    }
+    .quote-request {
+        margin: 8px 12px 0 0;
+    }
+}
+
+.bottom-nav {
+    top: 0;
+    ul {
+        text-align: center;
+    }
+    li {
+        display: inline-block;
+        float: none;
+    }
+}
+
 
 /*Off canvas test*/
   .row-offcanvas {
@@ -405,22 +458,65 @@ p {
     background-position: 98% 5px;
 }
 
+/*Buttons*/
+button, .button, [type="button"] {
+    cursor: pointer;
+}
+
+.quote-request {
+    .border-radius(20px);
+    background: #008C23;
+    border: 1px solid #134606;
+    color: #fff;
+    padding: 5px 9px;
+    font-weight: bold;
+}
+
 /***********************************************************************************************/
 /*Main Content*/
 /***********************************************************************************************/
 
 .main-content {
     padding: 28px;
-    margin: 90px 0 0 0;    
+    margin: 90px 0 0 0;
     h1~h2 {
         margin-top: 35px;
     }
+
 }
 
 .body-content {
     background: #DEE9EF;
     float: left;
+    min-height: 100%;
+    margin-bottom: -50px;    
+    &:after {
+        content: "";
+        display: block;
+        height: 50px;
+    }
 }
+
+.has-bottom-nav .body-content {
+    margin-bottom: -95px;
+}
+
+/*Company Page*/
+.company-info {
+    h2 {
+        color: #393F4C;
+        text-align: center;
+        margin: 2rem 0 2.4rem 0;
+    }
+    p {
+        line-height: 200%;
+    }   
+}
+
+.com-logo {
+    text-align: center;
+}
+
 
 /***********************************************************************************************/
 /*Product Catalog*/
@@ -633,3 +729,11 @@ p {
 /***********************************************************************************************/
 
 @import "../fonts/style.less";
+
+.icon-left {
+    margin-right: 5px;
+}
+
+.icon-right {
+    margin-left: 5px;
+}
