@@ -204,6 +204,12 @@ body {
   background: #23232E;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
+.width80 {
+  width: 80%;
+}
+.width100 {
+  width: 100%;
+}
 /***********************************************************************************************/
 /*Typography*/
 /***********************************************************************************************/
@@ -256,7 +262,6 @@ p {
   background: #EFF1F4;
   border-bottom: 1px solid #FFF;
   position: fixed;
-  width: 100%;
   z-index: 2000;
 }
 .hamburger a {
@@ -276,11 +281,6 @@ p {
   margin: 10px 0 0 32px;
   float: left;
 }
-.viewnav {
-  background: #DEE9EF;
-  float: left;
-  width: 80%;
-}
 .nav-profile {
   float: right;
 }
@@ -290,9 +290,8 @@ p {
   font-size: 1.5rem;
   padding: 8px 30px;
   height: 31px;
-  position: absolute;
+  position: relative;
   top: 59px;
-  width: 100%;
 }
 .news-highlights a {
   color: #777777;
@@ -378,7 +377,7 @@ p {
 .main-content h1 ~ h2 {
   margin-top: 35px;
 }
-#body-content {
+.body-content {
   background: #DEE9EF;
   float: left;
 }
@@ -403,6 +402,10 @@ p {
   margin: 0 0 0.5rem 0;
   line-height: 100%;
 }
+.card .details {
+  float: none;
+  margin: 8px;
+}
 .card .category {
   margin: 0 0 0.5rem 0;
   color: #666666;
@@ -413,12 +416,11 @@ p {
   text-align: right;
   text-transform: uppercase;
   height: 25px;
-  position: absolute;
-  bottom: 8px;
+  position: relative;
   display: block;
-  width: 160px;
+  width: 100%;
   padding: 0 9px 0 0;
-  right: 8px;
+  margin-top: 8px;
 }
 .card .talk:hover {
   background: #DBDBDB;
@@ -438,14 +440,14 @@ p {
   line-height: 100%;
 }
 .half-card .prod-img {
-  max-width: 150px;
-  height: 150px;
+  max-width: 164px;
+  height: 164px;
 }
 .half-card .details {
   float: none;
   padding: 8px;
-  width: 166px;
-  margin: 0;
+  width: 100%;
+  margin: 8px;
 }
 .half-card .category {
   margin: 0 0 0.5rem 0;
@@ -457,17 +459,12 @@ p {
 .prod-img {
   height: 164px;
   width: 164px;
-  float: left;
   background: #999;
-  margin: 8px;
+  margin: 8px auto;
 }
 .description {
   line-height: 14px;
   font-size: 13px;
-}
-.details {
-  float: left;
-  margin: 8px 8px 8px 0px;
 }
 .ratings {
   font-size: 1.2rem;
@@ -482,6 +479,28 @@ p {
   .card .details {
     width: 160px;
     margin: 8px 0 8px 0;
+    height: 164px;
+    float: left;
+  }
+  .card .talk {
+    position: absolute;
+    bottom: 8px;
+    width: 160px;
+  }
+  .prod-img {
+    height: 164px;
+    width: 164px;
+    float: left;
+    background: #999;
+    margin: 8px;
+  }
+  .half-card .details {
+    width: 166px;
+    margin: 0;
+  }
+  .half-card .prod-img {
+    max-width: 150px;
+    height: 150px;
   }
 }
 @media (min-width: 992px) {
@@ -489,9 +508,6 @@ p {
     width: 375px;
   }
   .card .talk {
-    width: 190px;
-  }
-  .card .details {
     width: 190px;
   }
   .half-card .prod-img {

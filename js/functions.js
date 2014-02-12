@@ -13,7 +13,7 @@ if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
 $(document).ready(function () {
 
     $("#offcanvas").click(function () {
-		$( "#body-content" ).toggleClass( "viewnav");
+		$( "[data-toggle=offcanvas]" ).toggleClass( "width80 width100");
         $(".sidebar").toggle();
     });
 	
