@@ -141,6 +141,14 @@ body {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
+.width80 {
+    width: 80%;
+}
+
+.width100 {
+    width: 100%;
+}
+
 /***********************************************************************************************/
 /*Typography*/
 /***********************************************************************************************/
@@ -197,7 +205,6 @@ p {
     background: #EFF1F4;
     border-bottom: 1px solid #FFF;
     position: fixed;
-    width: 100%;
     z-index: 2000;
 }
 .hamburger a {
@@ -217,15 +224,17 @@ p {
     margin: 10px 0 0 32px;
     float: left;
 }
-.viewnav {
-    background: #DEE9EF;
-    float: left;
-    width: 80%;
-}
-
 
 .nav-profile {
     float: right;
+    margin: 13px 20px 0 0;
+    .user-rating, .user-name {
+        float: left;
+        line-height: 200%;
+    }
+    .user-avatar {
+        display: block;
+    }
 }
 
 .news-highlights {
@@ -234,9 +243,8 @@ p {
     font-size:1.5rem;
     padding:8px 30px;
     height: 31px;
-    position: absolute;
+    position: relative;
     top: 59px;
-    width: 100%;
     a {
      color: #777777;
      text-decoration: underline; 
@@ -264,7 +272,7 @@ p {
 
 .arrow {
     font-size: 2rem;
-    line-height: 150%
+    line-height: 149% !important;
 }
 .searchcount, .arrow {
     color: #555555;
@@ -278,6 +286,7 @@ p {
 .subnav {
     margin: 0;
     padding: 0 0 0 20px;
+    display: none;
     li {
     color: #B8B8B8;
     font-size: 1.4rem;
@@ -305,7 +314,41 @@ p {
     display: block!important;
 }
 
+<<<<<<< HEAD
 .
+=======
+/*Off canvas test*/
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+>>>>>>> 3c63a173155c760ddd3f8da2088e6521d472c672
 
 /***********************************************************************************************/
 /*Form elements*/
@@ -332,9 +375,9 @@ p {
     }
 }
 
-#body-content {
-background: #DEE9EF;
-float: left;
+.body-content {
+    background: #DEE9EF;
+    float: left;
 }
 
 /***********************************************************************************************/
@@ -358,6 +401,10 @@ float: left;
         margin: 0 0 0.5rem 0;
         line-height: 100%;
     }
+    .details {
+        float: none;
+        margin: 8px;
+    }    
     .category {
         margin: 0 0 0.5rem 0;
         color: #666666;
@@ -368,12 +415,11 @@ float: left;
         text-align: right;
         text-transform: uppercase;
         height: 25px;
-        position: absolute;
-        bottom: 8px;
+        position: relative;
         display: block;
-        width: 160px;
+        width: 100%;
         padding: 0 9px 0 0;
-        right: 8px;
+        margin-top: 8px;
         &:hover {
             background: #DBDBDB;
         }
@@ -394,14 +440,14 @@ float: left;
         line-height: 100%;
     }  
     .prod-img {
-        max-width: 150px;
-        height: 150px;
+        max-width: 164px;
+        height: 164px;
     }     
     .details {
         float: none;
         padding: 8px;
-        width: 166px;
-        margin: 0;
+        width: 100%;
+        margin: 8px;
     }
     .category {
         margin: 0 0 0.5rem 0;
@@ -416,17 +462,13 @@ float: left;
 .prod-img {
     height: 164px;
     width: 164px;
-    float: left;
     background: #999;
-    margin: 8px;
+    margin: 8px auto;
 }
+
 .description {
     line-height: 14px;
     font-size: 13px;
-}
-.details {
-    float: left;
-    margin: 8px 8px 8px 0px;
 }
 
 .ratings {
@@ -441,8 +483,32 @@ float: left;
     width: 345px;
     .details {
         width: 160px;
-        margin: 8px 0 8px 0
-    }    
+        margin: 8px 0 8px 0;
+        height: 164px;
+        float: left;
+    }  
+        .talk {
+            position: absolute;
+            bottom: 8px;
+            width: 160px;
+        }     
+}
+.prod-img {
+    height: 164px;
+    width: 164px;
+    float: left;
+    background: #999;
+    margin: 8px;
+}
+.half-card {
+    .details {
+        width: 166px;
+        margin: 0;
+    }
+    .prod-img {
+        max-width: 150px;
+        height: 150px;
+    }         
 }
 }
 
@@ -450,9 +516,6 @@ float: left;
 .card {
     width: 375px;
     .talk {
-        width: 190px;
-    }
-    .details {
         width: 190px;
     }
 }

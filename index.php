@@ -39,7 +39,7 @@
 
 <body>
     <nav>
-        <div class="sidebar">
+        <div id="off-nav" class="sidebar">
             <div class="search"></div>
             <ul>
                 <li class="search">
@@ -168,9 +168,9 @@
     </nav>
 
 
-   <div class="viewnav" id="body-content">
+   <div class="width80 body-content" id="body-content" data-toggle="offcanvas">
         <header>
-            <div class="header">
+            <div class="width80 header" data-toggle="offcanvas">
                 <div class="hamburger">
                     <a id="offcanvas" class="icon icon-list2"></a>
                 </div>
@@ -180,13 +180,14 @@
                 </div>
 
                 <div class="nav-profile">
-                    <div class="uer-rating">
+                    <div class="user-rating">
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
-                        <span class="icon icon-star"></span>
+                        <span class="icon icon-star icon-left"></span>
                     </div>
+                    <div class="user-name">Joel<span class="icon icon-arrow-down4 arrow"></span></div>
                     <img class="user-avatar" src="images/user-avatar.png" alt="User Name" width="32" height="32" />
                 </div>
 
@@ -194,7 +195,7 @@
                     <div class="sprite"></div>
                 </div>
             </div>
-        <div class="news-highlights">
+        <div class="width100 news-highlights">
             <p>Feb 06 2014 14:01 The majority of South Africa’s new multimillionaires - those with more than R300m - earned their... <a href="#">read more</a></p>
         </div>
         </header>
@@ -209,7 +210,7 @@
 
             <div class="promoted cardwrapper clearfix">
                 <div class="card clearfix">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/camargue.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -223,16 +224,15 @@
                             elit. Nunc vitae rhoncus justo. Aliquam luctus leo
                             vel.
                         </div>
-                    </div>
-
-                    <div class="talk">
-                        <span class="icon icon-bubble"></span>
-                        talk to us
+                        <div class="talk">
+                            <span class="icon icon-bubble"></span>
+                            talk to us
+                        </div>
                     </div>
                 </div>
 
                 <div class="card clearfix">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/zurich.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -246,16 +246,15 @@
                             elit. Nunc vitae rhoncus justo. Aliquam luctus leo
                             vel.
                         </div>
-                    </div>
-
-                    <div class="talk">
-                        <span class="icon icon-bubble"></span>
-                        talk to us
+                        <div class="talk">
+                            <span class="icon icon-bubble"></span>
+                            talk to us
+                        </div>
                     </div>
                 </div>
 
                 <div class="card clearfix">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/camargue.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -269,16 +268,15 @@
                             elit. Nunc vitae rhoncus justo. Aliquam luctus leo
                             vel.
                         </div>
-                    </div>
-
-                    <div class="talk">
-                        <span class="icon icon-bubble"></span>
-                        talk to us
+                        <div class="talk">
+                            <span class="icon icon-bubble"></span>
+                            talk to us
+                        </div>
                     </div>
                 </div>
 
                 <div class="card clearfix">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/zurich.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -292,16 +290,15 @@
                             elit. Nunc vitae rhoncus justo. Aliquam luctus leo
                             vel.
                         </div>
-                    </div>
-
-                    <div class="talk">
-                        <span class="icon icon-bubble"></span>
-                        talk to us
+                        <div class="talk">
+                            <span class="icon icon-bubble"></span>
+                            talk to us
+                        </div>
                     </div>
                 </div>
 
                 <div class="card clearfix">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/camargue.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -315,16 +312,15 @@
                             elit. Nunc vitae rhoncus justo. Aliquam luctus leo
                             vel.
                         </div>
-                    </div>
-
-                    <div class="talk">
-                        <span class="icon icon-bubble"></span>
-                        talk to us
+                        <div class="talk">
+                            <span class="icon icon-bubble"></span>
+                            talk to us
+                        </div>
                     </div>
                 </div>
 
                 <div class="card clearfix">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/zurich.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -338,11 +334,10 @@
                             elit. Nunc vitae rhoncus justo. Aliquam luctus leo
                             vel.
                         </div>
-                    </div>
-
-                    <div class="talk">
-                        <span class="icon icon-bubble"></span>
-                        talk to us
+                        <div class="talk">
+                            <span class="icon icon-bubble"></span>
+                            talk to us
+                        </div>
                     </div>
                 </div>
             </div>
@@ -351,7 +346,7 @@
 
             <div class="popular cardwrapper clearfix">
                 <div class="half-card">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/king-price.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -382,7 +377,7 @@
                 </div>
 
                <div class="half-card">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/santam.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -413,7 +408,7 @@
                 </div>
 
                <div class="half-card">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/king-price2.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
@@ -444,7 +439,7 @@
                 </div>
 
                <div class="half-card">
-                    <div class="prod-img"></div>
+                    <div class="prod-img"><img src="images/outsurance.jpg" alt="Camargue"></div>
 
                     <div class="details">
                         <h3><a class="title">Commercial Crime</a></h3>
