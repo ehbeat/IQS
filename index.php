@@ -54,7 +54,7 @@
 
                     <div class="subnavclick">
                         <span class="icon icon-arrow-down4 arrow"></span>
-                        <span class="searchcount">224</span>
+                        <span class="searchcount">205</span>
                     </div>
 
                     <ul id="contacts" class="subnav">
@@ -90,16 +90,78 @@
 
             <ul>
                 <li><a><span class="icon-left icon icon-text"></span>Quotes</a>
-                    <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">224</span>
+                    <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">234</span>
                     </div>
                     <ul id="quotes" class="subnav">
-                        <li><a>Quotes Request</a>
+                        <li>
+                            <a>Quotes Request
+                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="searchcount">16</span>
+                            </a>
                         </li>
-                        <li><a>Quotes</a>
+                        <li>
+                            <a>Quotes
+                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="searchcount">3</span>
+                            </a>
                         </li>
-                        <li><a>History</a>
+                        <li>
+                            <a>History
+                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="searchcount">34</span>
+                            </a>
                         </li>
                     </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a><span class="icon-left icon icon-star"></span>Favourites</a>
+                    <span class="searchcount">100</span>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a><span class="icon-left icon icon-bubbles3"></span>Chats</a>
+                    <span class="searchcount">124</span>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a><span class="icon-left icon icon-">&nbsp;&nbsp;</span>Activity</a>
+                    <span class="searchcount"></span>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a><span class="icon-left icon icon-">&nbsp;&nbsp;</span>MarketApps</a>
+                    <span class="searchcount"></span>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a><span class="icon-left icon icon-user5"></span>Product Market</a>
+                    <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">16</span>
+                    </div>
+                    <ul id="Products" class="subnav">
+                        <li>
+                            <a>Professional Indemnity
+                                <span class="searchcount">16</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a><span class="icon-left icon icon-user4"></span>Product Providers</a>
+                    <span class="searchcount">205</span>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a><span class="icon-left icon icon-">&nbsp;&nbsp;</span>News</a>
+                    <span class="searchcount"></span>
                 </li>
             </ul>
         </div>
