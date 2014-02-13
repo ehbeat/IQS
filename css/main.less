@@ -46,6 +46,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+html {font-size: 62.5%;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -134,12 +135,31 @@ table {
 	background-clip:         padding-box;
 }
 
+.opacity (@opacity: 0.5) {
+	-webkit-opacity: 	@opacity;
+	-moz-opacity: 		@opacity;
+	opacity: 		@opacity;
+}
+
+.transition (@transition) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	-ms-transition:     @transition; 
+	-o-transition:      @transition;  
+}
+
 /***********************************************************************************************/
 /*Global*/
 /***********************************************************************************************/
 html {
-    font-size: 62.5%;
+    .opacity(0);
+    .transition(opacity 0.25s ease)
 }
+
+html.wf-active {
+    .opacity(1);
+}
+
 html, body {
     overflow-x: hidden;
     height: 100%;
@@ -148,7 +168,7 @@ html, body {
 body {
     font-size: 1.6rem;
     background: #23232E;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 .width80 {

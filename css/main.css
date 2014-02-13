@@ -110,6 +110,9 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+html {
+  font-size: 62.5%;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -193,7 +196,18 @@ table {
 /*Global*/
 /***********************************************************************************************/
 html {
-  font-size: 62.5%;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+  -ms-transition: opacity 0.25s ease;
+  -o-transition: opacity 0.25s ease;
+}
+html.wf-active {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
 }
 html,
 body {
@@ -203,7 +217,7 @@ body {
 body {
   font-size: 1.6rem;
   background: #23232E;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: Arial, sans-serif;
 }
 .width80 {
   width: 80%;
