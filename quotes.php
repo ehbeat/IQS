@@ -37,7 +37,7 @@
         <![endif]-->
     </head>
 
-<body class="has-bottom-nav">
+<body>
     <nav>
         <div id="off-nav" class="sidebar">
             <div class="search"></div>
@@ -202,38 +202,48 @@
                 </div>
 
             </div>
-            <div class="top-nav">
-                <ul>
-                    <li class="active"><a href="#">Policy</a></li>
-                    <li><a href="#">Brochures</a></li>
-                    <li class="pull-right">
-                        <button class="quote-request">Quote Request Form</button>
-                    </li>
-                </ul>
-            </div>
+
         </header>
 
         <div class="main-content">
 
-            <div class="company-info">
-                <div class="com-logo">
-                    <img src="../images/camargue-logo.jpg" alt="Camargue">
-                </div>
-                <h2 class="headline">Artchitects Professional Indemnity</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut tellus non tortor feugiat malesuada. Curabitur a cursus velit, ut vulputate nibh. Nam vel mollis ipsum, a bibendum dolor. Donec hendrerit viverra quam, sit amet auctor nunc. Vestibulum placerat rutrum lectus, at accumsan nulla aliquam sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque ultrices arcu eget metus dictum porttitor eu non purus. Proin mattis lorem id libero porta, vitae tincidunt lacus commodo. Curabitur semper justo et diam consequat, ac iaculis nisl tincidunt.</p>
+            <div class="quotes">
+                <table width="100%" border="0" class="quotes-table responsive">
+                    <tr class="table-header">
+                        <th>User</th>
+                        <th>Start</th>
+                        <th>Submitted</th>
+                        <th>Recieved</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Mary Smith</td>
+                        <td>18 Dec 2012</td>
+                        <td>12 Feb 2013</td>
+                        <td>12 Feb 2013</td>
+                        <td class="green">Submitted</td>
+                    </tr>
+                    <tr>
+                        <td>Bob Swart</td>
+                        <td>20 Jan 2013</td>
+                        <td>12 Feb 2013</td>
+                        <td>12 Feb 2013</td>
+                        <td class="yellow">In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>John Eagle</td>
+                        <td>12 Feb 2013</td>
+                        <td>12 Feb 2013</td>
+                        <td>12 Feb 2013</td>
+                        <td class="red">Quote Recieved</td>
+                    </tr>
+                </table>
             </div>
+
         </div>
     </div>
         <footer>
             <div class="footer-wrapper pull-right width80" data-toggle="offcanvas">
-                <div class="bottom-nav">
-                    <ul>
-                        <li class="active"><a href="#">About Us</a></li>
-                        <li class="pull-right">
-                            <button class="quote-request">Quote Request Form</button>
-                        </li>
-                    </ul>
-                </div>
                 <div class="footer">
                     <div>
                         <div class="footer-logo"><img src="images/iqs-footer-logo.png" alt="IQS Online" width="74" height="24"></div>
@@ -243,6 +253,7 @@
             </div>
         </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
+    <script src="js/responsive-tables.min.js" defer></script>
     <script src="js/functions.min.js" defer></script>
     </body>
 </html>

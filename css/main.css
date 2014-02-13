@@ -556,6 +556,94 @@ button,
 .com-logo {
   text-align: center;
 }
+/*Quotes*/
+.quotes {
+  margin: 0 -28px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-bottom: 1px solid #BBBBBB;
+}
+table th {
+  background: #DADADA;
+  text-align: left;
+  padding: 20px 10px;
+  color: #333333;
+  line-height: 120%;
+  font-weight: bold;
+}
+table tr {
+  border-bottom: 1px solid #BBBBBB;
+}
+table td {
+  padding: 10px;
+}
+table td:first-of-type,
+table th:first-of-type {
+  padding-left: 20px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+  table.responsive {
+    margin-bottom: 0;
+  }
+  .pinned {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    width: 35%;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  .pinned table {
+    border-right: none;
+    border-left: none;
+    width: 100%;
+  }
+  .pinned table th,
+  .pinned table td {
+    white-space: nowrap;
+  }
+  .pinned td:last-child {
+    border-bottom: 0;
+  }
+  div.table-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-right: 1px solid #ccc;
+  }
+  div.table-wrapper div.scrollable {
+    margin-left: 35%;
+  }
+  div.table-wrapper div.scrollable {
+    overflow: scroll;
+    overflow-y: hidden;
+  }
+  table.responsive td,
+  table.responsive th {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  table.responsive th:first-child,
+  table.responsive td:first-child,
+  table.responsive td:first-child,
+  table.responsive.pinned td {
+    display: none;
+  }
+}
+.green {
+  color: #003F10;
+}
+.yellow {
+  color: #D8A300;
+}
+.red {
+  color: #D80000;
+}
 /***********************************************************************************************/
 /*Product Catalog*/
 /***********************************************************************************************/
