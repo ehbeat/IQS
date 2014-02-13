@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <title></title>
 
         <link href="css/main.min.css" rel="stylesheet" type="text/css">
@@ -62,26 +62,26 @@
                         <li>
                             <a>Customers
                                 <span class="notification">(8)</span> 
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">24</span>
                             </a>
                         </li>
                         <li>
                             <a>Insurers 
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">37</span>
                             </a>
                         </li>
                         <li>
                             <a>Colleugues
                                 <span class="notification">(4)</span> 
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">9</span>
                             </a>
                         </li>
                         <li>
                             <a>Service Providers 
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">2</span>
                             </a>
                         </li>
@@ -96,19 +96,19 @@
                     <ul id="quotes" class="subnav">
                         <li>
                             <a>Quotes Request
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">16</span>
                             </a>
                         </li>
                         <li>
                             <a>Quotes
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">3</span>
                             </a>
                         </li>
                         <li>
                             <a>History
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">34</span>
                             </a>
                         </li>
