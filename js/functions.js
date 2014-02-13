@@ -25,6 +25,7 @@ $(document).ready(function ()
     $('.subnavclick').click(function ()
     {
         $(this).next(subNavs).slideToggle('slow');
+        $(this).children('.arrow').toggleClass('rotate')
 
         var navitem = $(this).attr('id'),
             id = $(this).attr('class'),

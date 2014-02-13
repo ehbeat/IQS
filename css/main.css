@@ -380,10 +380,28 @@ p {
   border-bottom: 1px solid #2D2D35;
   line-height: 28px;
   font-size: 1.6rem;
+  cursor: pointer;
+}
+.sidebar .icon-left {
+  color: #fff;
 }
 .arrow {
   font-size: 2rem;
   line-height: 149% !important;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+}
+.rotate {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
 }
 .searchcount,
 .arrow {
@@ -469,9 +487,10 @@ p {
 /*Off canvas test*/
 .row-offcanvas {
   position: relative;
-  -webkit-transition: all 0.25s ease-out;
-  -moz-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
 }
 .row-offcanvas-right .sidebar-offcanvas {
   right: -50%;
@@ -740,8 +759,8 @@ table th:first-of-type {
   margin: 8px auto;
 }
 .description {
-  line-height: 14px;
-  font-size: 13px;
+  line-height: 1.4rem;
+  font-size: 1.3rem;
 }
 /*Rating System*/
 .ratings {
@@ -766,7 +785,7 @@ table th:first-of-type {
     width: 345px;
   }
   .card .details {
-    width: 160px;
+    width: 190px;
     margin: 8px 0 8px 0;
     height: 164px;
     float: left;

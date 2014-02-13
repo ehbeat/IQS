@@ -129,13 +129,13 @@
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-">&nbsp;&nbsp;</span>Activity</a>
+                <li><a><span class="icon-left icon icon-history"></span>Activity</a>
                     <span class="searchcount"></span>
                 </li>
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-">&nbsp;&nbsp;</span>MarketApps</a>
+                <li><a><span class="icon-left icon icon-code"></span>MarketApps</a>
                     <span class="searchcount"></span>
                 </li>
             </ul>
@@ -161,7 +161,7 @@
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-">&nbsp;&nbsp;</span>News</a>
+                <li><a><span class="icon-left icon icon-newspaper"></span>News</a>
                     <span class="searchcount"></span>
                 </li>
             </ul>

@@ -148,6 +148,27 @@ table {
 	-o-transition:      @transition;  
 }
 
+.transform(@string){
+	-webkit-transform: @string;
+	-moz-transform: 	 @string;
+	-ms-transform: 		 @string;
+	-o-transform: 		 @string;
+}
+
+.rotate (@deg) {
+	-webkit-transform:  rotate(@deg);
+	-moz-transform: 	 rotate(@deg);
+	-ms-transform: 		 rotate(@deg);
+	-o-transform: 		 rotate(@deg);
+}
+
+.transform-origin (@x:center, @y:center) {
+	-webkit-transform-origin: @x @y;
+	-moz-transform-origin:    @x @y;
+	-ms-transform-origin:     @x @y;
+	-o-transform-origin:      @x @y;
+}
+
 /***********************************************************************************************/
 /*Global*/
 /***********************************************************************************************/
@@ -344,13 +365,24 @@ p {
         border-bottom: 1px solid #2D2D35;
         line-height: 28px;
         font-size: 1.6rem;
+        cursor: pointer;
+    }
+    .icon-left {
+        color: #fff;
     }
 }
 
 .arrow {
     font-size: 2rem;
     line-height: 149% !important;
+    .transition(all 0.5s ease);
+    .transform-origin();
 }
+
+.rotate {
+    .rotate(-90deg);
+}
+
 .searchcount, .arrow {
     color: #555555;
     width: 28px;
@@ -432,9 +464,7 @@ p {
 /*Off canvas test*/
   .row-offcanvas {
     position: relative;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
+    .transition(all 0.5s ease-out);
   }
 
   .row-offcanvas-right
@@ -679,8 +709,8 @@ table {
 }
 
 .description {
-    line-height: 14px;
-    font-size: 13px;
+    line-height: 1.4rem;
+    font-size: 1.3rem;
 }
 
 /*Rating System*/
@@ -710,7 +740,7 @@ table {
 .card {
     width: 345px;
     .details {
-        width: 160px;
+        width: 190px;
         margin: 8px 0 8px 0;
         height: 164px;
         float: left;
