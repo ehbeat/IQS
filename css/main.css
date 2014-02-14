@@ -216,11 +216,10 @@ body {
 }
 body {
   font-size: 1.6rem;
-  background: #23232E;
   font-family: Arial, sans-serif;
 }
 .width80 {
-  width: 80%;
+  width: 100%;
 }
 .width100 {
   width: 100%;
@@ -230,6 +229,11 @@ body {
 }
 .bg-white {
   background: #fff !important;
+}
+@media (min-width: 768px) {
+  .width80 {
+    width: 100%;
+  }
 }
 /***********************************************************************************************/
 /*Typography*/
@@ -262,6 +266,11 @@ h3 {
 p {
   margin: 0 0 1rem 0;
 }
+.outer-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #23232E;
+}
 /***********************************************************************************************/
 /*Header*/
 /***********************************************************************************************/
@@ -275,6 +284,7 @@ p {
   border-bottom: 1px solid #FFF;
   position: fixed;
   z-index: 2000;
+  max-width: 900px;
 }
 .hamburger a {
   font-size: 4rem;
@@ -366,23 +376,43 @@ p {
   .nav-profile .user-avatar {
     display: block;
   }
+  .hamburger {
+    display: none;
+  }
 }
 /***********************************************************************************************/
 /*Navigation*/
 /***********************************************************************************************/
-.sidebar {
-  color: #FFF;
-  float: left;
-  width: 20%;
-  padding: 15px 10px 15px 15px;
+/*Off canvas test*/
+.row-offcanvas {
+  position: relative;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
 }
-.sidebar li {
+.row-offcanvas-left .sidebar-offcanvas {
+  left: -50%;
+}
+.row-offcanvas-left.active {
+  left: 50%;
+}
+.sidebar-offcanvas {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  color: #FFF;
+  padding: 15px 10px 15px 15px;
+  background: #23232E;
+  height: 100%;
+}
+.sidebar-offcanvas li {
   border-bottom: 1px solid #2D2D35;
   line-height: 28px;
   font-size: 1.6rem;
   cursor: pointer;
 }
-.sidebar .icon-left {
+.sidebar-offcanvas .icon-left {
   color: #fff;
 }
 .arrow {
@@ -484,40 +514,26 @@ p {
   display: inline-block;
   float: none;
 }
-/*Off canvas test*/
-.row-offcanvas {
-  position: relative;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-}
-.row-offcanvas-right .sidebar-offcanvas {
-  right: -50%;
-  /* 6 columns */
-
-}
-.row-offcanvas-left .sidebar-offcanvas {
-  left: -50%;
-  /* 6 columns */
-
-}
-.row-offcanvas-right.active {
-  right: 50%;
-  /* 6 columns */
-
-}
-.row-offcanvas-left.active {
-  left: 50%;
-  /* 6 columns */
-
-}
-.sidebar-offcanvas {
-  position: absolute;
-  top: 0;
-  width: 50%;
-  /* 6 columns */
-
+@media (min-width: 768px) {
+  .row-offcanvas-left .sidebar-oncanvas {
+    color: #FFF;
+    float: left;
+    padding: 15px 10px 15px 15px;
+    background: #23232E;
+    width: 300px;
+    position: fixed;
+    left: auto;
+    height: 100%;
+  }
+  .row-offcanvas-left .sidebar-oncanvas li {
+    border-bottom: 1px solid #2D2D35;
+    line-height: 28px;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+  .row-offcanvas-left .sidebar-oncanvas .icon-left {
+    color: #fff;
+  }
 }
 /***********************************************************************************************/
 /*Form elements*/
@@ -575,8 +591,8 @@ form > * {
 }
 .body-content {
   background: #DEE9EF;
-  float: left;
   min-height: 100%;
+  max-width: 900px;
   margin-bottom: -50px;
 }
 .body-content:after {
@@ -851,6 +867,7 @@ table th:first-of-type {
   font-size: 1.2rem;
   padding: 13px;
   line-height: 190%;
+  max-width: 900px;
 }
 .footer a {
   text-decoration: none;

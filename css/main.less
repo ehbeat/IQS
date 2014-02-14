@@ -188,12 +188,11 @@ html, body {
 
 body {
     font-size: 1.6rem;
-    background: #23232E;
     font-family: Arial, sans-serif;
 }
 
 .width80 {
-    width: 80%;
+    width: 100%;
 }
 
 .width100 {
@@ -206,6 +205,12 @@ body {
 
 .bg-white {
     background: #fff !important;
+}
+
+@media (min-width: 768px) {
+    .width80 {
+    width: 100%;
+}
 }
 
 /***********************************************************************************************/
@@ -239,7 +244,11 @@ p {
     margin: 0 0 1rem 0;
 }
 
-
+.outer-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #23232E;
+}
 
 /***********************************************************************************************/
 /*Header*/
@@ -255,6 +264,7 @@ p {
     border-bottom: 1px solid #FFF;
     position: fixed;
     z-index: 2000;
+    max-width: 900px;
 }
 .hamburger a {
     font-size: 4rem;
@@ -350,17 +360,37 @@ p {
         display: block;
     }
 }
+    .hamburger {
+        display: none;
+}
 }
 
 /***********************************************************************************************/
 /*Navigation*/
 /***********************************************************************************************/
 
-.sidebar {
+/*Off canvas test*/
+  .row-offcanvas {
+    position: relative;
+    .transition(all 0.5s ease-out);
+  }
+
+  .row-offcanvas-left .sidebar-offcanvas {
+    left: -50%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%;
     color: #FFF;
-    float: left;
-    width: 20%;
     padding: 15px 10px 15px 15px;
+    background: #23232E;
+    height: 100%;
     li {
         border-bottom: 1px solid #2D2D35;
         line-height: 28px;
@@ -370,7 +400,7 @@ p {
     .icon-left {
         color: #fff;
     }
-}
+  }
 
 .arrow {
     font-size: 2rem;
@@ -460,36 +490,28 @@ p {
     }
 }
 
+@media (min-width:768px) {
+.row-offcanvas-left .sidebar-oncanvas {
+    color: #FFF;
+    float: left;
+    padding: 15px 10px 15px 15px;
+    background: #23232E;
+    width: 300px;
+    position: fixed;
+    left: auto;
+    height: 100%;
+    li {
+        border-bottom: 1px solid #2D2D35;
+        line-height: 28px;
+        font-size: 1.6rem;
+        cursor: pointer;
+    }
+    .icon-left {
+        color: #fff;
+    }
+}
+}
 
-/*Off canvas test*/
-  .row-offcanvas {
-    position: relative;
-    .transition(all 0.5s ease-out);
-  }
-
-  .row-offcanvas-right
-  .sidebar-offcanvas {
-    right: -50%; /* 6 columns */
-  }
-
-  .row-offcanvas-left
-  .sidebar-offcanvas {
-    left: -50%; /* 6 columns */
-  }
-
-  .row-offcanvas-right.active {
-    right: 50%; /* 6 columns */
-  }
-
-  .row-offcanvas-left.active {
-    left: 50%; /* 6 columns */
-  }
-
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 50%; /* 6 columns */
-  }
 
 /***********************************************************************************************/
 /*Form elements*/
@@ -549,13 +571,12 @@ form > * {
     h1~h2 {
         margin-top: 35px;
     }
-
 }
 
 .body-content {
     background: #DEE9EF;
-    float: left;
     min-height: 100%;
+    max-width: 900px;
     margin-bottom: -50px;    
     &:after {
         content: "";
@@ -822,6 +843,7 @@ table {
     font-size: 1.2rem;
     padding: 13px;
     line-height: 190%;
+    max-width: 900px;
     a {
         text-decoration: none;
         color: #5D5D5D;
