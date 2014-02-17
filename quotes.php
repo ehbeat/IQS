@@ -39,6 +39,7 @@
     </head>
 
 <body>
+    <div class="outer-wrapper row-offcanvas row-offcanvas-left">
     <nav>
         <div id="off-nav" class="sidebar">
             <div class="search"></div>
@@ -256,5 +257,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
     <script src="js/responsive-tables.min.js" defer></script>
     <script src="js/functions.min.js" defer></script>
+    </div>
     </body>
 </html>
