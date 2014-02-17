@@ -40,7 +40,7 @@
 <body class="has-bottom-nav">
     <div class="outer-wrapper row-offcanvas row-offcanvas-left">
     <nav>
-        <div id="off-nav" class="sidebar">
+        <div id="off-nav" class="sidebar-offcanvas sidebar-oncanvas">
             <div class="search"></div>
             <ul>
                 <li class="search">
@@ -169,7 +169,7 @@
     </nav>
 
 
-   <div class="width80 body-content bg-white" id="body-content" data-toggle="offcanvas">
+   <div class="width100 body-content pull-right" id="body-content" data-toggle="offcanvas">
         <header>
             <div class="width80 header" data-toggle="offcanvas">
                 <div class="hamburger">
@@ -226,7 +226,7 @@
         </div>
     </div>
         <footer>
-            <div class="footer-wrapper pull-right width80" data-toggle="offcanvas">
+            <div class="footer-wrapper pull-right width100" data-toggle="offcanvas">
                 <div class="bottom-nav">
                     <ul>
                         <li class="active"><a href="#">About Us</a></li>
@@ -235,7 +235,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer">
+                <div class="footer pull-right">
                     <div>
                         <div class="footer-logo"><img src="images/iqs-footer-logo.png" alt="IQS Online" width="74" height="24"></div>
                         <div><a href="#">Privacy &amp; Terms</a> | <a href="#">Settings</a> | <a href="#">Advertising</a> | <a href="#">About</a></div>

@@ -270,6 +270,7 @@ p {
   max-width: 1200px;
   margin: 0 auto;
   background: #23232E;
+  height: 100%;
 }
 /***********************************************************************************************/
 /*Header*/
@@ -858,6 +859,9 @@ table th:first-of-type {
 /***********************************************************************************************/
 /*Footer*/
 /***********************************************************************************************/
+.footer-wrapper {
+  max-width: 900px;
+}
 .footer {
   background: #EFF1F4;
   border-top: 1px solid #FFF;
@@ -867,7 +871,6 @@ table th:first-of-type {
   font-size: 1.2rem;
   padding: 13px;
   line-height: 190%;
-  max-width: 900px;
 }
 .footer a {
   text-decoration: none;
