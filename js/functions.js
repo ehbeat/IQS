@@ -17,6 +17,7 @@ $(document).ready(function ()
     {
         $("[data-toggle=offcanvas]").toggleClass("width80 width100");
         $(".sidebar").toggle();
+        $('.row-offcanvas').toggleClass('active');
     });
 
     var subNavs = $('.subnav');
@@ -25,6 +26,7 @@ $(document).ready(function ()
     $('.subnavclick').click(function ()
     {
         $(this).next(subNavs).slideToggle('slow');
+        $(this).children('.arrow').toggleClass('rotate')
 
         var navitem = $(this).attr('id'),
             id = $(this).attr('class'),
@@ -34,20 +36,5 @@ $(document).ready(function ()
         $('#' + id).toggle();
         return false;
     });
-
-    /*$('[data-toggle=offcanvastest]').click(function ()
-    {
-        $('.row-offcanvas').toggleClass('active');
-    });
-
-    if ($(document.outerWidth < 767))
-    {
-        $('#body-content').addClass("row-offcanvas row-offcanvas-left");
-        $('off-nav').toggleClass('sidebar sidebar-offcanvas');
-    } else
-    {
-        $('#body-content').removeClass("row-offcanvas row-offcanvas-left");
-        $('off-nav').toggleClass('sidebar sidebar-offcanvas');
-    };*/
 
 });

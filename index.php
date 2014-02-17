@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <title></title>
 
         <link href="css/main.min.css" rel="stylesheet" type="text/css">
@@ -38,8 +38,9 @@
     </head>
 
 <body>
+    <div class="outer-wrapper row-offcanvas row-offcanvas-left">
     <nav>
-        <div id="off-nav" class="sidebar">
+        <div id="off-nav" class="sidebar-offcanvas sidebar-oncanvas">
             <div class="search"></div>
             <ul>
                 <li class="search">
@@ -61,26 +62,26 @@
                         <li>
                             <a>Customers
                                 <span class="notification">(8)</span> 
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">24</span>
                             </a>
                         </li>
                         <li>
                             <a>Insurers 
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">37</span>
                             </a>
                         </li>
                         <li>
                             <a>Colleugues
                                 <span class="notification">(4)</span> 
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">9</span>
                             </a>
                         </li>
                         <li>
                             <a>Service Providers 
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">2</span>
                             </a>
                         </li>
@@ -95,19 +96,19 @@
                     <ul id="quotes" class="subnav">
                         <li>
                             <a>Quotes Request
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">16</span>
                             </a>
                         </li>
                         <li>
                             <a>Quotes
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">3</span>
                             </a>
                         </li>
                         <li>
                             <a>History
-                                <span class="icon icon-arrow-down4 arrow">&nbsp;</span>
+                                <span class="icon icon-arrow-down4 arrow"></span>
                                 <span class="searchcount">34</span>
                             </a>
                         </li>
@@ -128,13 +129,13 @@
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-">&nbsp;&nbsp;</span>Activity</a>
+                <li><a><span class="icon-left icon icon-history"></span>Activity</a>
                     <span class="searchcount"></span>
                 </li>
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-">&nbsp;&nbsp;</span>MarketApps</a>
+                <li><a><span class="icon-left icon icon-code"></span>MarketApps</a>
                     <span class="searchcount"></span>
                 </li>
             </ul>
@@ -160,7 +161,7 @@
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-">&nbsp;&nbsp;</span>News</a>
+                <li><a><span class="icon-left icon icon-newspaper"></span>News</a>
                     <span class="searchcount"></span>
                 </li>
             </ul>
@@ -168,9 +169,9 @@
     </nav>
 
 
-   <div class="width80 body-content" id="body-content" data-toggle="offcanvas">
+   <div class="width100 body-content pull-right" id="body-content" data-toggle="offcanvas">
         <header>
-            <div class="width80 header" data-toggle="offcanvas">
+            <div class="width100 header" data-toggle="offcanvas">
                 <div class="hamburger">
                     <a id="offcanvas" class="icon icon-list2"></a>
                 </div>
@@ -179,8 +180,13 @@
                     <img src="images/iqs-logo.png" alt="IQS Online" />
                 </div>
 
-                <div class="nav-profile">
-                    <div class="user-rating">
+                <div class="notifications pull-right">
+                    <span class="noti-count">1</span>
+                    <div class="sprite notification"></div>
+                </div>
+
+                <div class="nav-profile pull-right">
+                    <div class="user-rating pull-left">
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
                         <span class="icon icon-star"></span>
@@ -189,10 +195,6 @@
                     </div>
                     <div class="user-name">Joel<span class="icon icon-arrow-down4 arrow"></span></div>
                     <img class="user-avatar" src="images/user-avatar.png" alt="User Name" width="32" height="32" />
-                </div>
-
-                <div class="notifications">
-                    <div class="sprite"></div>
                 </div>
             </div>
         <div class="width100 news-highlights">
@@ -358,17 +360,17 @@
                         <div class="ratings">
                             <div class="rating">
                                 <span>Rating</span>
-                                <span class="icon-right icon icon-star">
-                                </span><span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star">
+                                </span><span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
                             <div class="popularity">
                                 <span>Popularity</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
@@ -389,16 +391,16 @@
                         <div class="ratings">
                             <div class="rating">
                                 <span>Rating</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
                             <div class="popularity">
                                 <span>Popularity</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
@@ -420,17 +422,17 @@
                         <div class="ratings">
                             <div class="rating">
                                 <span>Rating</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                             </div>
                             <div class="popularity">
                                 <span>Popularity</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
@@ -451,16 +453,16 @@
                         <div class="ratings">
                             <div class="rating">
                                 <span>Rating</span>
-                                <span class="icon-right icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
-                                <span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                             </div>
                             <div class="popularity">
                                 <span>Popularity</span>
-                                <span class="icon-right icon icon-star">
-                                </span><span class="icon icon-star"></span>
+                                <span class="icon-right icon icon-star pos-star"></span>
+                                <span class="icon icon-star pos-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
                                 <span class="icon icon-star"></span>
@@ -470,17 +472,19 @@
                 </div>
             </div>
         </div>
-
+    </div>
         <footer>
-            <div class="footer">
-                <div>
-                    <div class="footer-logo"><img src="images/iqs-footer-logo.png" alt="IQS Online" width="74" height="24"></div>
-                    <div><a href="#">Privacy &amp; Terms</a> | <a href="#">Settings</a> | <a href="#">Advertising</a> | <a href="#">About</a></div>
+            <div class="footer-wrapper pull-right width100" data-toggle="offcanvas">
+                <div class="footer pull-right">
+                    <div>
+                        <div class="footer-logo"><img src="images/iqs-footer-logo.png" alt="IQS Online" width="74" height="24"></div>
+                        <div><a href="#">Privacy &amp; Terms</a> | <a href="#">Settings</a> | <a href="#">Advertising</a> | <a href="#">About</a></div>
+                    </div>
                 </div>
             </div>
         </footer>
-    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
     <script src="js/functions.min.js" defer></script>
+    </div>
     </body>
 </html>
