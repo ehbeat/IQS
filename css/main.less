@@ -370,7 +370,7 @@ body-content {
     height: 59px;
 }
 
-@media (min-width:768px) {
+@media (min-width:600px) {
 .nav-profile {
     .user-rating {
         display: block;
@@ -393,7 +393,7 @@ body-content {
 /**************************/
 /*Active Tablet*/
 /*************************/
-@media (min-width:768px) {
+@media (min-width:600px) {
     .body-content {
         background: #DEE9EF;
         min-height: 100%;
@@ -558,7 +558,7 @@ body-content {
     }
 }
 
-@media (min-width:768px) {
+@media (min-width:600px) {
 .row-offcanvas-left .sidebar-oncanvas {
     color: #FFF;
     float: left;
@@ -582,7 +582,7 @@ body-content {
 /***************************************************/
 /*Touch Active Tablet*/
 /***************************************************/
-@media (min-width:768px) {
+@media (min-width:600px) {
     .touch .row-offcanvas-left .sidebar-offcanvas {
         position: absolute;
         top: 0;
@@ -901,29 +901,34 @@ table {
 /**************************/
 /*Active Tablet*/
 /*************************/
-@media (min-width:768px) { 
+@media (min-width:600px) { 
 .card {
     width: 180px;
     .details {
+<<<<<<< HEAD
+=======
+        width: 92%;
+        margin: 0 4%;
+>>>>>>> 9cd2d6b580ea94b204bae02f2b9d1a670e55891d
         height: 164px;
         float: right;
     }  
         .talk {
             position: absolute;
             bottom: 8px;
-            width: 160px;
+            width: 92%;
         }     
 }
 
 .prod-img {
     height: 164px;
     width: 164px;
-    float: left;
     background: #999;
-    margin: 8px;
+    margin: 8px auto;
 }
 
 .half-card {
+<<<<<<< HEAD
     width: 46%;
     .details {
         width: 98%;
@@ -933,6 +938,14 @@ table {
         max-width: 150px;
         height: 150px;
     }         
+=======
+    width:46%;
+    .details {
+        width: 92%;
+        margin: 0 4%;
+        padding: 0 0 8px 0;
+    }       
+>>>>>>> 9cd2d6b580ea94b204bae02f2b9d1a670e55891d
 }
 
 /*Rating System*/
@@ -958,18 +971,38 @@ table {
 }
 }
 
+<<<<<<< HEAD
 /**************************/
 /*Active Desktop*/
 /*************************/
 @media (min-width:992px) { 
+=======
+
+@media (min-width:960px) { 
+>>>>>>> 9cd2d6b580ea94b204bae02f2b9d1a670e55891d
 .card {
     width: 375px;
     .talk {
-        width: 190px;
+        width: 180px;
+        margin: 0
+    }
+    .details {
+        width: 180px;
+        margin: 8px 8px 8px 0;
+        height: 164px;
+        float: right;
+    }    
+    .prod-img {
+        height: 164px;
+        width: 164px;
+        background: #999;
+        float: left;
+        margin: 8px;
     }
 }
 
 .half-card {
+    width: 180px;
     .prod-img {
         max-width: 164px;
         height: 164px;
@@ -977,7 +1010,7 @@ table {
     .details {
         float: none;
         padding: 8px;
-        width: 180px;
+        width: 100%;
         margin: 0;
     }
 }
@@ -1019,10 +1052,10 @@ table {
 /*Active Tablet*/
 /*************************/
 
-@media (min-width:768px) {
+@media (min-width:600px) {
     .footer-wrapper {
     max-width: 1200px;
-}
+    }
 }
 
 /***********************************************************************************************/
