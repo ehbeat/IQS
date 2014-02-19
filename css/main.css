@@ -595,9 +595,9 @@ body-content:after {
 /***************************************************/
 @media (min-width: 768px) {
   .touch .row-offcanvas-left .sidebar-offcanvas {
-    position: fixed;
+    position: absolute;
     top: 0;
-    width: 30%;
+    width: 42.8%;
     color: #FFF;
     padding: 15px 10px 15px 15px;
     background: #23232E;
@@ -620,7 +620,8 @@ body-content:after {
     -o-transition: all 0.5s ease-out;
   }
   .touch .row-offcanvas-left .sidebar-offcanvas {
-    left: 0%;
+    left: -42.8%;
+    z-index: -1;
   }
   .touch .row-offcanvas-left.active {
     left: 30%;
