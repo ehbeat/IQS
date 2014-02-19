@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,8 +38,9 @@
     </head>
 
 <body>
+    <div class="outer-wrapper row-offcanvas row-offcanvas-left">
     <nav>
-        <div id="off-nav" class="sidebar">
+        <div id="off-nav" class="sidebar-offcanvas sidebar-oncanvas">
             <div class="search"></div>
             <ul>
                 <li class="search">
@@ -168,12 +168,11 @@
         </div>
     </nav>
 
-
-   <div class="width80 body-content bg-white" id="body-content" data-toggle="offcanvas">
+   <div class="width100 body-content pull-right" id="body-content" data-toggle="offcanvas">
         <header>
-            <div class="width80 header" data-toggle="offcanvas">
-                <div class="hamburger">
-                    <a id="offcanvas" class="icon icon-list2"></a>
+            <div class="width100 header">
+                <div id="trigger" class="menu-trigger">
+                    <a id="offcanvas"></a>
                 </div>
 
                 <div class="logo">
@@ -183,11 +182,6 @@
                 <div class="notifications pull-right">
                     <span class="noti-count">1</span>
                     <div class="sprite notification"></div>
-                </div>
-
-                <div class="noti-quote pull-right">
-                    <span class="noti-count">3</span>
-                    <span class="icon icon-quote"></span>
                 </div>
 
                 <div class="nav-profile pull-right">
@@ -201,13 +195,13 @@
                     <div class="user-name">Joel<span class="icon icon-arrow-down4 arrow"></span></div>
                     <img class="user-avatar" src="images/user-avatar.png" alt="User Name" width="32" height="32" />
                 </div>
-
             </div>
-
+        <div class="width100 news-highlights">
+            <p>Feb 06 2014 14:01 The majority of South Africa’s new multimillionaires - those with more than R300m - earned their... <a href="#">read more</a></p>
+        </div>
         </header>
 
         <div class="main-content">
-
             <form action="#">
                 <input type="text">
                 <input type="password">
@@ -241,12 +235,12 @@
                 <input type="color">
                 <div class="progress-bar">Progress Bar</div>
             </form>
-
+            </div>
         </div>
     </div>
         <footer>
-            <div class="footer-wrapper pull-right width80" data-toggle="offcanvas">
-                <div class="footer">
+            <div class="footer-wrapper pull-right width100" data-toggle="offcanvas">
+                <div class="footer pull-right">
                     <div>
                         <div class="footer-logo"><img src="images/iqs-footer-logo.png" alt="IQS Online" width="74" height="24"></div>
                         <div><a href="#">Privacy &amp; Terms</a> | <a href="#">Settings</a> | <a href="#">Advertising</a> | <a href="#">About</a></div>
@@ -255,7 +249,8 @@
             </div>
         </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" defer></script>
-    <script src="js/responsive-tables.min.js" defer></script>
+    <script>new mlPushMenu( document.getElementById( 'mp-menu' ), document.getElementById( 'trigger' ) );</script>
     <script src="js/functions.min.js" defer></script>
+    </div>
     </body>
 </html>

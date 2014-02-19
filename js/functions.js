@@ -15,7 +15,7 @@ $(document).ready(function ()
 
     $("#offcanvas").click(function ()
     {
-        $("[data-toggle=offcanvas]").toggleClass("width80 width100");
+      //  $("[data-toggle=offcanvas]").toggleClass("width80 width100");
         $(".sidebar").toggle();
         $('.row-offcanvas').toggleClass('active');
     });
