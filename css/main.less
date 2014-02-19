@@ -183,7 +183,7 @@ html.wf-active {
 
 html, body {
     overflow-x: hidden;
-    height: 100%;
+    height: auto;
 }
 
 body {
@@ -205,12 +205,6 @@ body {
 
 .bg-white {
     background: #fff !important;
-}
-
-@media (min-width: 768px) {
-    .width80 {
-    width: 80%;
-}
 }
 
 /***********************************************************************************************/
@@ -259,7 +253,7 @@ p {
 /**************************/
 /*Active Phone*/
 /*************************/
-.touch .body-content {
+body-content {
     background: #DEE9EF;
     min-height: 100%;
     max-width: 1200px;
@@ -329,7 +323,7 @@ p {
     color: #777777;
     font-size:1.5rem;
     padding:8px 30px;
-    height: 31px;
+    height: 80px;
     position: relative;
     top: 59px;
     a {
@@ -399,32 +393,37 @@ p {
 /**************************/
 /*Active Tablet*/
 /*************************/
-.touch .body-content {
-    background: #DEE9EF;
-    min-height: 100%;
-    max-width: 1200px;
-    margin-bottom: -50px;    
-    &:after {
-        content: "";
-        display: block;
-        height: 50px;
-    }
-}
+@media (min-width:768px) {
+    .body-content {
+        background: #DEE9EF;
+        min-height: 100%;
+        max-width: 1200px;
+        margin-bottom: -50px;
 
-.news-highlights {
-    background: #DADADA;
-    color: #777777;
-    font-size:1.5rem;
-    padding:8px 30px;
-    height: 31px;
-    position: relative;
-    top: 59px;
-    a {
-     color: #777777;
-     text-decoration: underline; 
+        &:after {
+            content: "";
+            display: block;
+            height: 50px;
+        }
     }
-    p {
-        margin: 0;
+
+    .news-highlights {
+        background: #DADADA;
+        color: #777777;
+        font-size: 1.5rem;
+        padding: 8px 30px;
+        height: 31px;
+        position: relative;
+        top: 59px;
+
+        a {
+            color: #777777;
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 0;
+        }
     }
 }
 
@@ -849,7 +848,7 @@ table {
     .details {
         float: none;
         padding: 8px;
-        width: 100%;
+        width: 248px;
         margin: 8px;
     }
     .category {
@@ -896,7 +895,9 @@ table {
     color: #ECC03E;
 }
 
-/*Tablet*/
+/**************************/
+/*Active Tablet*/
+/*************************/
 @media (min-width:768px) { 
 .card {
     width: 370px;
@@ -931,6 +932,28 @@ table {
         height: 150px;
     }         
 }
+
+/*Rating System*/
+
+.ratings {
+    font-size: 1.3rem;
+    background: #F0F0F0;
+    padding: 7px 7px;
+    &:hover {
+        background: #DBDBDB;
+    }
+    div {
+        display: block;
+    }
+}
+
+.icon-star {
+    color: #999999;
+}
+
+.pos-star {
+    color: #ECC03E;
+}
 }
 
 
@@ -959,6 +982,9 @@ table {
 /*Footer*/
 /***********************************************************************************************/
 
+/**************************/
+/*Active Phone*/
+/*************************/
 .footer-wrapper {
     max-width: 900px;
 }
@@ -968,21 +994,31 @@ table {
     border-top: 1px solid #FFF;
     height: 50px;
     width: 100%;
-    text-align: right;
+    text-align: center;
     font-size: 1.2rem;
-    padding: 13px;
+    padding-bottom: 60px;
     line-height: 190%;
     a {
         text-decoration: none;
         color: #5D5D5D;
     }
     div {
-        float: right;
+        margin: auto;
     }
 }
 
 .footer-logo {
-    margin: 0 0 0 10px;
+    padding-top: 5px;
+}
+
+/**************************/
+/*Active Tablet*/
+/*************************/
+
+@media (min-width:768px) {
+    .footer-wrapper {
+    max-width: 1200px;
+}
 }
 
 /***********************************************************************************************/
