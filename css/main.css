@@ -447,13 +447,13 @@ body-content:after {
   -o-transition: all 0.5s ease-out;
 }
 .row-offcanvas-left .sidebar-offcanvas {
-  left: -81%;
+  left: 0%;
 }
 .row-offcanvas-left.active {
   left: 81%;
 }
 .sidebar-offcanvas {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 81%;
   color: #FFF;
