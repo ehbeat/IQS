@@ -464,8 +464,8 @@ body-content:after {
 }
 .sidebar-offcanvas li {
   border-bottom: 1px solid #2D2D35;
-  line-height: 28px;
-  font-size: 1.6rem;
+  line-height: 35px;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 .sidebar-offcanvas .icon-left {
@@ -607,8 +607,8 @@ body-content:after {
   }
   .touch .row-offcanvas-left .sidebar-offcanvas li {
     border-bottom: 1px solid #2D2D35;
-    line-height: 28px;
-    font-size: 1.6rem;
+    line-height: 35px;
+    font-size: 1.8rem;
     cursor: pointer;
   }
   .touch .row-offcanvas-left .sidebar-offcanvas .icon-left {
@@ -920,11 +920,9 @@ table th:first-of-type {
 /*************************/
 @media (min-width: 768px) {
   .card {
-    width: 46%;
+    width: 180px;
   }
   .card .details {
-    width: 190px;
-    margin: 8px 0 8px 0;
     height: 164px;
     float: right;
   }
@@ -940,9 +938,12 @@ table th:first-of-type {
     background: #999;
     margin: 8px;
   }
+  .half-card {
+    width: 46%;
+  }
   .half-card .details {
-    width: 178px;
-    margin: 0px;
+    width: 98%;
+    margin: 01%;
   }
   .half-card .prod-img {
     max-width: 150px;
@@ -967,6 +968,9 @@ table th:first-of-type {
     color: #ECC03E;
   }
 }
+/**************************/
+/*Active Desktop*/
+/*************************/
 @media (min-width: 992px) {
   .card {
     width: 375px;
