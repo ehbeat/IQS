@@ -239,7 +239,7 @@ p {
 }
 
 .outer-wrapper {
-    width: 1200px;
+    width: 1920px;
     margin: 0 auto;
     background: #23232E;
     height: 100%;
@@ -370,43 +370,10 @@ body-content {
     height: 59px;
 }
 
-@media (min-width:600px) {
-.nav-profile {
-    .user-rating {
-        display: block;
-        line-height: 200%;
-    }
-    .user-avatar {
-        display: block;
-    }
-}
-    .hamburger {
-        display: none;
-}
-}
-
-.touch .hamburger {
-    display: block;
-}
-
-
 /**************************/
 /*Header Tablet*/
 /*************************/
 @media (min-width:600px) {
-    .body-content {
-        background: #DEE9EF;
-        min-height: 100%;
-        max-width: 1200px;
-        margin-bottom: -50px;
-
-        &:after {
-            content: "";
-            display: block;
-            height: 50px;
-        }
-    }
-
     .news-highlights {
         background: #DADADA;
         color: #777777;
@@ -425,6 +392,20 @@ body-content {
             margin: 0;
         }
     }
+    .nav-profile {
+        .user-rating {
+            display: block;
+            line-height: 200%;
+        }
+
+        .user-avatar {
+            display: block;
+        }
+
+        .hamburger {
+            display: block;
+        }
+    }
 }
 
 /**************************/
@@ -434,6 +415,17 @@ body-content {
 @media (min-width:1170px) {
     .nav-profile {
     margin: 13px 20px 0 0;
+    .user-name {
+        float: left;
+        line-height: 200%;
+    }
+    .user-rating {
+        display: inline-block;
+    }
+    .user-avatar {
+        display: inline-block;
+    }
+}
 }
 
 /***********************************************************************************************/
@@ -441,7 +433,7 @@ body-content {
 /***********************************************************************************************/
 
 /**************************/
-/*Navigation Active Phone*/
+/*Navigation Phone*/
 /*************************/
 
   .row-offcanvas {
@@ -567,30 +559,11 @@ body-content {
     }
 }
 
-@media (min-width:600px) {
-.row-offcanvas-left .sidebar-oncanvas {
-    color: #FFF;
-    float: left;
-    padding: 15px 10px 15px 15px;
-    background: #23232E;
-    width: 300px;
-    position: fixed;
-    left: auto;
-    height: 100%;
-    li {
-        border-bottom: 1px solid #2D2D35;
-        line-height: 28px;
-        font-size: 1.6rem;
-        cursor: pointer;
-    }
-    .icon-left {
-        color: #fff;
-    }
-}
-}
+
 /**************************/
 /*Navigation Tablet*/
 /*************************/
+
 @media (min-width:600px) {
     .touch .row-offcanvas-left .sidebar-offcanvas {
         position: relative;
@@ -1053,11 +1026,6 @@ table {
     max-width: 1200px;
     }
 }
-
-/**************************/
-/*Footer Desktop*/
-/*************************/
-
 
 /***********************************************************************************************/
 /*IE 10 Fix for mobiles*/
