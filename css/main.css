@@ -450,13 +450,13 @@ body-content:after {
   left: 0%;
 }
 .row-offcanvas-left.active {
-  left: 81%;
+  left: 60%;
 }
 .sidebar-offcanvas {
   position: fixed;
   z-index: -1;
   top: 0;
-  width: 81%;
+  width: 60%;
   color: #FFF;
   padding: 15px 10px 15px 15px;
   background: #23232E;
@@ -464,16 +464,16 @@ body-content:after {
 }
 .sidebar-offcanvas li {
   border-bottom: 1px solid #2D2D35;
-  line-height: 28px;
-  font-size: 1.6rem;
+  line-height: 4rem;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 .sidebar-offcanvas .icon-left {
   color: #fff;
 }
 .arrow {
-  font-size: 2rem;
-  line-height: 149% !important;
+  font-size: 3rem;
+  line-height: 4rem !important;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -519,7 +519,7 @@ body-content:after {
   padding: 0 5px 0 0;
 }
 .subnavclick {
-  height: 28px;
+  height: 4rem;
   float: right;
   cursor: pointer;
 }
@@ -581,12 +581,6 @@ body-content:after {
     left: auto;
     height: 100%;
   }
-  .row-offcanvas-left .sidebar-oncanvas li {
-    border-bottom: 1px solid #2D2D35;
-    line-height: 28px;
-    font-size: 1.6rem;
-    cursor: pointer;
-  }
   .row-offcanvas-left .sidebar-oncanvas .icon-left {
     color: #fff;
   }
@@ -607,8 +601,6 @@ body-content:after {
   }
   .touch .row-offcanvas-left .sidebar-offcanvas li {
     border-bottom: 1px solid #2D2D35;
-    line-height: 28px;
-    font-size: 1.6rem;
     cursor: pointer;
   }
   .touch .row-offcanvas-left .sidebar-offcanvas .icon-left {
