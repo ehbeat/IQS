@@ -262,7 +262,7 @@ p {
   margin: 0 0 1rem 0;
 }
 .outer-wrapper {
-  max-width: 1200px;
+  max-width: 1920px;
   margin: 0 auto;
   background: #23232E;
   height: 100%;
@@ -273,13 +273,14 @@ p {
 /**************************/
 /*Active Phone*/
 /*************************/
-body-content {
+.body-content {
   background: #DEE9EF;
   min-height: 100%;
-  max-width: 1200px;
+  max-width: 900px;
+  width: 100%;
   margin-bottom: -50px;
 }
-body-content:after {
+.body-content:after {
   content: "";
   display: block;
   height: 50px;
@@ -294,7 +295,8 @@ body-content:after {
   border-bottom: 1px solid #FFF;
   position: fixed;
   z-index: 2000;
-  max-width: 900px;
+  max-width: 1620px;
+  width: 100%;
 }
 .touch .header {
   height: 59px;
@@ -408,7 +410,8 @@ body-content:after {
   .body-content {
     background: #DEE9EF;
     min-height: 100%;
-    max-width: 1200px;
+    max-width: 1620px;
+    width: 75%;
     margin-bottom: -50px;
   }
   .body-content:after {
@@ -576,7 +579,7 @@ body-content:after {
     float: left;
     padding: 15px 10px 15px 15px;
     background: #23232E;
-    width: 300px;
+    width: 25%;
     position: fixed;
     left: auto;
     height: 100%;
@@ -675,17 +678,6 @@ form > * {
 }
 .main-content h1 ~ h2 {
   margin-top: 35px;
-}
-.body-content {
-  background: #DEE9EF;
-  min-height: 100%;
-  max-width: 900px;
-  margin-bottom: -50px;
-}
-.body-content:after {
-  content: "";
-  display: block;
-  height: 50px;
 }
 .has-bottom-nav .body-content {
   margin-bottom: -95px;
