@@ -85,7 +85,11 @@
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-text"></span>Quotes</a>
+                <li>
+                    <a>
+                        <span class="icon-left icon icon-text"></span>
+                        Quotes
+                    </a>
                     <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">234</span>
                     </div>
                     <ul id="quotes" class="subnav">
@@ -112,31 +116,51 @@
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-star"></span>Favourites</a>
+                <li>
+                    <a>
+                        <span class="icon-left icon icon-star"></span>
+                        Favourites
+                    </a>
                     <span class="searchcount">100</span>
                 </li>
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-bubbles3"></span>Chats</a>
+                <li>
+                    <a>
+                        <span class="icon-left icon icon-bubbles3"></span>
+                        Chats
+                    </a>
                     <span class="searchcount">124</span>
                 </li>
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-history"></span>Activity</a>
+                <li>
+                    <a>
+                        <span class="icon-left icon icon-history"></span>
+                        Activity
+                    </a>
                     <span class="searchcount"></span>
                 </li>
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-code"></span>MarketApps</a>
+                <li>
+                    <a>
+                        <span class="icon-left icon icon-code"></span>
+                        MarketApps
+                    </a>
                     <span class="searchcount"></span>
                 </li>
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-user5"></span>Product Market</a>
+                <li>
+                    <a>
+                        <span class="icon-left icon icon-user5"></span>
+                        Product Market
+                    </a>
                     <div class="subnavclick"><span class="icon icon-arrow-down4 arrow"></span><span class="searchcount">16</span>
                     </div>
                     <ul id="Products" class="subnav">
@@ -150,13 +174,21 @@
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-user4"></span>Product Providers</a>
+                <li>
+                    <a>
+                        <span class="icon-left icon icon-user4"></span>
+                        Product Providers
+                    </a>
                     <span class="searchcount">205</span>
                 </li>
             </ul>
 
             <ul>
-                <li><a><span class="icon-left icon icon-newspaper"></span>News</a>
+                <li>
+                    <a>
+                        <span class="icon-left icon icon-newspaper"></span>
+                        News
+                    </a>
                     <span class="searchcount"></span>
                 </li>
             </ul>

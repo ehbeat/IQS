@@ -240,6 +240,7 @@ p {
 
 .outer-wrapper {
     width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
     background: #23232E;
     height: 100%;
@@ -253,17 +254,6 @@ p {
 /**************************/
 /*Header Phone*/
 /*************************/
-body-content {
-    background: #DEE9EF;
-    min-height: 100%;
-    max-width: 1200px;
-    margin-bottom: -50px;    
-    &:after {
-        content: "";
-        display: block;
-        height: 50px;
-    }
-}
 .header, .hamburger a {
     height: 58px;
 }
@@ -274,7 +264,8 @@ body-content {
     border-bottom: 1px solid #FFF;
     position: fixed;
     z-index: 2000;
-    max-width: 900px;
+    max-width: 1200px;
+    width: 100%
 }
 
 .touch .header {
@@ -373,7 +364,8 @@ body-content {
 /**************************/
 /*Header Tablet*/
 /*************************/
-@media (min-width:600px) {
+@media (min-width:960px) {
+
     .news-highlights {
         background: #DADADA;
         color: #777777;
@@ -412,7 +404,7 @@ body-content {
 /*Header Desktop*/
 /*************************/
 
-@media (min-width:1170px) {
+@media (min-width:1200px) {
     .nav-profile {
     margin: 13px 20px 0 0;
     .user-name {
@@ -453,7 +445,7 @@ body-content {
     position: fixed;
     z-index: -1;
     top: 0;
-    width: 81%;
+    width: 25%;
     color: #FFF;
     padding: 15px 10px 15px 15px;
     background: #23232E;
@@ -559,12 +551,10 @@ body-content {
     }
 }
 
-
 /**************************/
 /*Navigation Tablet*/
 /*************************/
-
-@media (min-width:600px) {
+@media (min-width:960px) {
     .touch .row-offcanvas-left .sidebar-offcanvas {
         position: relative;
         top: 0;
@@ -596,6 +586,10 @@ body-content {
     .touch .row-offcanvas-left.active {
         left: 30%;
     }
+}
+
+@media (min-width:1200px)  {
+
 }
 
 
@@ -663,6 +657,7 @@ form > * {
     }
 }
 
+
 .body-content {
     background: #DEE9EF;
     min-height: 100%;
@@ -728,16 +723,43 @@ table {
 /**************************/
 /*Main Content Tablet*/
 /*************************/
-.touch .body-content {
-    background: #DEE9EF;
-    min-height: 100%;
-    max-width: 1200px;
-    margin-bottom: -50px;    
-    &:after {
-        content: "";
-        display: block;
-        height: 50px;
+@media (min-width:960px) {
+    .touch .body-content {
+        background: #DEE9EF;
+        min-height: 100%;
+        max-width: 960px;
+        margin-bottom: -50px;
+
+        &:after {
+            content: "";
+            display: block;
+            height: 50px;
+        }
     }
+}
+
+@media (min-width:1200px) {
+    .body-content {
+        background: #DEE9EF;
+        min-height: 100%;
+        max-width: 1200px;
+        margin-bottom: -50px;
+        &:after {
+            content: "";
+            display: block;
+            height: 50px;
+        }
+    }
+}
+
+/**************************/
+/*Main Content Desktop*/
+/*************************/
+
+@media (min-width:1170) {
+    .body-content{
+        width: 1920px;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -772,7 +794,6 @@ table {
 
 .cardwrapper {
     margin: 0 -7px;
-    max-width: 1170px;
 }
 .card {
     background: #FFF;
@@ -947,7 +968,7 @@ table {
 /**************************/
 /*Product Catalog Desktop*/
 /*************************/
-@media (min-width:960px) { 
+@media (min-width:1200px) {
 
 .card {
     width: 375px;
