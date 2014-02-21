@@ -156,7 +156,7 @@ table {
 }
 
 .rotate (@deg) {
-	-webkit-transform:  rotate(@deg);
+	-webkit-transform:   rotate(@deg);
 	-moz-transform: 	 rotate(@deg);
 	-ms-transform: 		 rotate(@deg);
 	-o-transform: 		 rotate(@deg);
@@ -265,7 +265,7 @@ body-content {
     }
 }
 .header, .hamburger a {
-    height: 59px;
+    height: 58px;
 }
 
 .header {
@@ -432,7 +432,7 @@ body-content {
 /***********************************************************************************************/
 
 /**************************/
-/*Active Phone*/
+/*Navigation Active Phone*/
 /*************************/
 
   .row-offcanvas {
@@ -579,13 +579,14 @@ body-content {
     }
 }
 }
-/***************************************************/
-/*Touch Active Tablet*/
-/***************************************************/
+/**************************/
+/*Navigation Tablet*/
+/*************************/
 @media (min-width:600px) {
     .touch .row-offcanvas-left .sidebar-offcanvas {
-        position: absolute;
+        position: relative;
         top: 0;
+        left: -42.8%;
         width: 42.8%;
         z-index: -1;
         color: #FFF;
@@ -606,13 +607,8 @@ body-content {
     }
 
     .touch .row-offcanvas {
-        position: absolute;
+        position: relative;
         .transition(all 0.5s ease-out);
-    }
-
-    .touch .row-offcanvas-left .sidebar-offcanvas {
-        left: -42.8%;
-        
     }
 
     .touch .row-offcanvas-left.active {
@@ -905,11 +901,8 @@ table {
 .card {
     width: 180px;
     .details {
-<<<<<<< HEAD
-=======
         width: 92%;
         margin: 0 4%;
->>>>>>> 9cd2d6b580ea94b204bae02f2b9d1a670e55891d
         height: 164px;
         float: right;
     }  
@@ -928,8 +921,6 @@ table {
 }
 
 .half-card {
-<<<<<<< HEAD
-    width: 46%;
     .details {
         width: 98%;
         margin: 01%;
@@ -938,14 +929,11 @@ table {
         max-width: 150px;
         height: 150px;
     }         
-=======
-    width:46%;
     .details {
         width: 92%;
         margin: 0 4%;
         padding: 0 0 8px 0;
     }       
->>>>>>> 9cd2d6b580ea94b204bae02f2b9d1a670e55891d
 }
 
 /*Rating System*/
@@ -971,15 +959,11 @@ table {
 }
 }
 
-<<<<<<< HEAD
 /**************************/
 /*Active Desktop*/
 /*************************/
-@media (min-width:992px) { 
-=======
-
 @media (min-width:960px) { 
->>>>>>> 9cd2d6b580ea94b204bae02f2b9d1a670e55891d
+
 .card {
     width: 375px;
     .talk {
