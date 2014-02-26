@@ -372,21 +372,6 @@ p {
     height: 59px;
 }
 
-@media (min-width:600px) {
-.nav-profile {
-    .user-rating {
-        display: block;
-        line-height: 200%;
-    }
-    .user-avatar {
-        display: block;
-    }
-}
-    .hamburger {
-        display: none;
-}
-}
-
 .touch .hamburger {
     display: block;
 }
@@ -410,6 +395,19 @@ p {
         }
     }
 
+.nav-profile {
+    .user-rating {
+        display: block;
+        line-height: 200%;
+    }
+    .user-avatar {
+        display: block;
+    }
+}
+    .hamburger {
+        display: none;
+}
+
     .news-highlights {
         background: #DADADA;
         color: #777777;
@@ -429,6 +427,16 @@ p {
         }
     }
 }
+
+@media (min-width:900px) {
+    .nav-profile {
+    width: 450px;
+}
+ .user-avatar {
+        display: inline-block;
+    }
+}
+
 
 /***********************************************************************************************/
 /*Navigation*/
@@ -455,7 +463,7 @@ p {
     position: fixed;
     z-index: -1;
     top: 0;
-    width: 60%;
+    width: 0%;
     color: #FFF;
     padding: 15px 10px 15px 15px;
     background: #23232E;
@@ -562,7 +570,7 @@ p {
 }
 
 /***************************************************/
-/*Touch Active Tablet*/
+/*Active Tablet*/
 /***************************************************/
 @media (min-width:600px) {
     .touch .row-offcanvas-left .sidebar-offcanvas {
@@ -598,6 +606,16 @@ p {
     .touch .row-offcanvas-left.active {
         left: 30%;
     }
+}
+
+
+/***************************************************/
+/*Active Desktop*/
+/***************************************************/
+@media (min-width:900px) {
+    .row-offcanvas-left .sidebar-offcanvas {
+    width: 25%;
+}
 }
 /***********************************************************************************************/
 /*Form elements*/
@@ -1001,6 +1019,15 @@ table {
 @media (min-width:600px) {
     .footer-wrapper {
     max-width: 1200px;
+    }
+}
+
+/**************************/
+/*Active desktop*/
+/*************************/
+@media (min-width:900px) {
+    .footer- {
+        width:;
     }
 }
 
