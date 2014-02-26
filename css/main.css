@@ -262,7 +262,6 @@ p {
   margin: 0 0 1rem 0;
 }
 .outer-wrapper {
-  width: 1920px;
   max-width: 1920px;
   margin: 0 auto;
   background: #23232E;
@@ -272,11 +271,23 @@ p {
 /*Header*/
 /***********************************************************************************************/
 /**************************/
-/*Header Phone*/
+/*Active Phone*/
 /*************************/
+.body-content {
+  background: #DEE9EF;
+  min-height: 100%;
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: -50px;
+}
+.body-content:after {
+  content: "";
+  display: block;
+  height: 50px;
+}
 .header,
 .hamburger a {
-  height: 58px;
+  height: 59px;
 }
 .header {
   height: 59px;
@@ -284,7 +295,7 @@ p {
   border-bottom: 1px solid #FFF;
   position: fixed;
   z-index: 2000;
-  max-width: 1200px;
+  max-width: 1620px;
   width: 100%;
 }
 .touch .header {
@@ -377,10 +388,37 @@ p {
   border-left: 1px solid #fff;
   height: 59px;
 }
+@media (min-width: 600px) {
+  .nav-profile .user-rating {
+    display: block;
+    line-height: 200%;
+  }
+  .nav-profile .user-avatar {
+    display: block;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+.touch .hamburger {
+  display: block;
+}
 /**************************/
-/*Header Tablet*/
+/*Active Tablet*/
 /*************************/
-@media (min-width: 960px) {
+@media (min-width: 600px) {
+  .body-content {
+    background: #DEE9EF;
+    min-height: 100%;
+    max-width: 1620px;
+    width: 75%;
+    margin-bottom: -50px;
+  }
+  .body-content:after {
+    content: "";
+    display: block;
+    height: 50px;
+  }
   .news-highlights {
     background: #DADADA;
     color: #777777;
@@ -397,40 +435,12 @@ p {
   .news-highlights p {
     margin: 0;
   }
-  .nav-profile .user-rating {
-    display: block;
-    line-height: 200%;
-  }
-  .nav-profile .user-avatar {
-    display: block;
-  }
-  .nav-profile .hamburger {
-    display: block;
-  }
-}
-/**************************/
-/*Header Desktop*/
-/*************************/
-@media (min-width: 1200px) {
-  .nav-profile {
-    margin: 13px 20px 0 0;
-  }
-  .nav-profile .user-name {
-    float: left;
-    line-height: 200%;
-  }
-  .nav-profile .user-rating {
-    display: inline-block;
-  }
-  .nav-profile .user-avatar {
-    display: inline-block;
-  }
 }
 /***********************************************************************************************/
 /*Navigation*/
 /***********************************************************************************************/
 /**************************/
-/*Navigation Phone*/
+/*Active Phone*/
 /*************************/
 .row-offcanvas {
   position: relative;
@@ -443,13 +453,13 @@ p {
   left: 0%;
 }
 .row-offcanvas-left.active {
-  left: 81%;
+  left: 50%;
 }
 .sidebar-offcanvas {
   position: fixed;
   z-index: -1;
   top: 0;
-  width: 25%;
+  width: 60%;
   color: #FFF;
   padding: 15px 10px 15px 15px;
   background: #23232E;
@@ -457,7 +467,7 @@ p {
 }
 .sidebar-offcanvas li {
   border-bottom: 1px solid #2D2D35;
-  line-height: 35px;
+  line-height: 4rem;
   font-size: 1.8rem;
   cursor: pointer;
 }
@@ -465,8 +475,8 @@ p {
   color: #fff;
 }
 .arrow {
-  font-size: 2rem;
-  line-height: 149% !important;
+  font-size: 3rem;
+  line-height: 4rem !important;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -512,7 +522,7 @@ p {
   padding: 0 5px 0 0;
 }
 .subnavclick {
-  height: 28px;
+  height: 4rem;
   float: right;
   cursor: pointer;
 }
@@ -563,43 +573,40 @@ p {
   display: inline-block;
   float: none;
 }
-/**************************/
-/*Navigation Tablet*/
-/*************************/
-@media (min-width: 960px) {
+/***************************************************/
+/*Touch Active Tablet*/
+/***************************************************/
+@media (min-width: 600px) {
   .touch .row-offcanvas-left .sidebar-offcanvas {
-    position: relative;
-    top: 0;
-    left: -42.8%;
-    width: 42.8%;
-    z-index: -1;
     color: #FFF;
+    float: left;
     padding: 15px 10px 15px 15px;
     background: #23232E;
+    width: 25%;
+    position: fixed;
+    left: auto;
     height: 100%;
   }
   .touch .row-offcanvas-left .sidebar-offcanvas li {
     border-bottom: 1px solid #2D2D35;
-    line-height: 35px;
-    font-size: 1.8rem;
     cursor: pointer;
   }
   .touch .row-offcanvas-left .sidebar-offcanvas .icon-left {
     color: #fff;
   }
   .touch .row-offcanvas {
-    position: relative;
+    position: absolute;
     -webkit-transition: all 0.5s ease-out;
     -moz-transition: all 0.5s ease-out;
     -ms-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
   }
+  .touch .row-offcanvas-left .sidebar-offcanvas {
+    left: -42.8%;
+  }
   .touch .row-offcanvas-left.active {
     left: 30%;
   }
-}
-@media (min-width: 1200px) {
-  
 }
 /***********************************************************************************************/
 /*Form elements*/
@@ -648,7 +655,7 @@ form > * {
 /*Main Content*/
 /***********************************************************************************************/
 /**************************/
-/*Main Content Phone*/
+/*Active Phone*/
 /*************************/
 .main-content {
   padding: 28px;
@@ -656,17 +663,6 @@ form > * {
 }
 .main-content h1 ~ h2 {
   margin-top: 35px;
-}
-.body-content {
-  background: #DEE9EF;
-  min-height: 100%;
-  width: 900px;
-  margin-bottom: -50px;
-}
-.body-content:after {
-  content: "";
-  display: block;
-  height: 50px;
 }
 .has-bottom-nav .body-content {
   margin-bottom: -95px;
@@ -712,41 +708,18 @@ table th:first-of-type {
   font-weight: bold;
 }
 /**************************/
-/*Main Content Tablet*/
+/*Active Tablet*/
 /*************************/
-@media (min-width: 960px) {
-  .touch .body-content {
-    background: #DEE9EF;
-    min-height: 100%;
-    max-width: 960px;
-    margin-bottom: -50px;
-  }
-  .touch .body-content:after {
-    content: "";
-    display: block;
-    height: 50px;
-  }
+.touch .body-content {
+  background: #DEE9EF;
+  min-height: 100%;
+  max-width: 1200px;
+  margin-bottom: -50px;
 }
-@media (min-width: 1200px) {
-  .body-content {
-    background: #DEE9EF;
-    min-height: 100%;
-    max-width: 1200px;
-    margin-bottom: -50px;
-  }
-  .body-content:after {
-    content: "";
-    display: block;
-    height: 50px;
-  }
-}
-/**************************/
-/*Main Content Desktop*/
-/*************************/
-@media (min-width: 1170) {
-  .body-content {
-    width: 1920px;
-  }
+.touch .body-content:after {
+  content: "";
+  display: block;
+  height: 50px;
 }
 @media only screen and (max-width: 767px) {
   table.responsive {
@@ -813,6 +786,7 @@ table th:first-of-type {
 /***********************************************************************************************/
 .cardwrapper {
   margin: 0 -7px;
+  max-width: 1170px;
 }
 .card {
   background: #FFF;
@@ -911,11 +885,11 @@ table th:first-of-type {
   color: #ECC03E;
 }
 /**************************/
-/*Product Catalog Tablet*/
+/*Active Tablet*/
 /*************************/
 @media (min-width: 600px) {
   .card {
-    width: 180px;
+    width: 46%;
   }
   .card .details {
     width: 92%;
@@ -934,13 +908,8 @@ table th:first-of-type {
     background: #999;
     margin: 8px auto;
   }
-  .half-card .details {
-    width: 98%;
-    margin: 01%;
-  }
-  .half-card .prod-img {
-    max-width: 150px;
-    height: 150px;
+  .half-card {
+    width: 46%;
   }
   .half-card .details {
     width: 92%;
@@ -966,10 +935,7 @@ table th:first-of-type {
     color: #ECC03E;
   }
 }
-/**************************/
-/*Product Catalog Desktop*/
-/*************************/
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .card {
     width: 375px;
   }
@@ -1008,7 +974,7 @@ table th:first-of-type {
 /*Footer*/
 /***********************************************************************************************/
 /**************************/
-/*Footer Phone*/
+/*Active Phone*/
 /*************************/
 .footer-wrapper {
   max-width: 900px;
@@ -1034,7 +1000,7 @@ table th:first-of-type {
   padding-top: 5px;
 }
 /**************************/
-/*Footer Tablet*/
+/*Active Tablet*/
 /*************************/
 @media (min-width: 600px) {
   .footer-wrapper {
